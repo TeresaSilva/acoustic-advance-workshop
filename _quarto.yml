@@ -7,8 +7,8 @@ execute:
 
 website:
   title: "Advanced acoustic workshop"
-  site-url: "https://<github-user>.github.io/<repo-name>/"
-  repo-url: "https://github.com/<github-user>/<repo-name>"
+  site-url: "https://teresasilva.github.io/acoustic-advance-workshop/"
+  repo-url: "https://github.com/TeresaSilva/acoustic-advance-workshop"
   repo-actions: [edit, issue]
   favicon: images/hafro-emblem.png
   page-navigation: true
@@ -25,7 +25,7 @@ website:
         text: Presentations
     right:
       - icon: github
-        href: "https://github.com/<github-user>/<repo-name>"
+        href: "https://github.com/TeresaSilva/acoustic-advance-workshop"
   page-footer:
     left: "Hafrannsóknastofnun · Marine and Freshwater Research Institute"
     right: "Project 9277 · 5–8 October 2026"
