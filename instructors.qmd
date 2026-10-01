@@ -1,0 +1,17 @@
+---
+title: "Instructors"
+subtitle: "Kennarar"
+toc: false
+---
+
+| Instructor | Affiliation | Sessions |
+|---|---|---|
+| Sigvaldi Árnason| MFRI | Calibration |
+| Frank  Bahr | WHOI | ADCP, calibration, processing |
+| Andreas Macrander | MFRI | ADCP operation, processing |
+| Hector Pena| IMR | Sonar data analysis |
+| Kjetil G. Thorvaldsen | DTU | Korona, behavioural analysis |
+| Teresa Silva | MFRI | Korona libraries, LSSS, data infrastructure |
+| Sigurður Þór Jónsson | MFRI | NMEA extraction, biomass in R |
+| Mandana Mahgoli| HI / MFRI | AI and Python |
+| Sigurvin | MFRI | Acoustic database, cloud access |

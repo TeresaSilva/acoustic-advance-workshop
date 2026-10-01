@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+// MFRI / Hafró brand tokens
+$mfri-blue:   #0076a9;
+$mfri-blue-7: #045f87;
+$mfri-navy:   #052836;
+$mfri-grey:   #5c6670;
+$mfri-ink:    #14181b;
+$mfri-soft:   #eef6fb;
+$mfri-line:   #e9ebed;
+$mfri-teal:   #138379;
+
+$primary: $mfri-blue;
+$secondary: $mfri-grey;
+$body-color: $mfri-ink;
+$link-color: $mfri-blue-7;
+$link-hover-color: $mfri-navy;
+
+$font-family-sans-serif: "Open Sans", system-ui, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, monospace;
+$headings-font-weight: 700;
+$border-radius: 6px;
+
+$navbar-bg: $mfri-navy;
+$navbar-fg: #d3e8f3;
+$navbar-hl: #ffffff;
+$footer-bg: $mfri-navy;
+$footer-fg: #d3e8f3;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap");
+
+h1, h2, h3 { letter-spacing: -0.01em; text-wrap: balance; }
+h2 { border-bottom: 2px solid $mfri-ink; padding-bottom: .3rem; margin-top: 2.2rem; }
+
+.eyebrow {
+  font-family: $font-family-monospace;
+  font-size: .8rem; letter-spacing: .14em; text-transform: uppercase;
+  color: $mfri-blue;
+}
+.is { color: $mfri-grey; font-style: italic; }
+
+.hero {
+  background: $mfri-navy; color: #fff;
+  padding: 3rem 2.5rem; border-radius: 10px; margin-bottom: 2rem;
+  h1 { color: #fff; font-size: 2.6rem; margin: .4rem 0 .6rem; border: 0; }
+  .eyebrow { color: #71b4d6; }
+  .is { color: #a7d0e7; }
+}
+
+.info-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem; margin: 1.5rem 0;
+  > div {
+    background: $mfri-soft; border-top: 3px solid $mfri-blue;
+    padding: 1rem 1.2rem; border-radius: 6px;
+  }
+  strong { display: block; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: $mfri-blue-7; margin-bottom: .3rem; }
+}
+
+// agenda tables
+table.agenda { width: 100%; }
+table.agenda td:first-child, table.agenda th:first-child {
+  font-family: $font-family-monospace; white-space: nowrap; width: 9rem; color: $mfri-blue-7;
+}
+table.agenda tr.break td { color: #889198; font-size: .9rem; }
+table.agenda td { border-color: $mfri-line; vertical-align: top; }
+
+.navbar-logo { max-height: 34px; }

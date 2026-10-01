@@ -1,0 +1,42 @@
+---
+title: "Advanced acoustic workshop"
+subtitle: ""
+toc: false
+title-block-style: none
+---
+
+::: {.hero}
+[Workshop · Námskeið · 5–8 October 2026]{.eyebrow}
+
+# Advanced acoustic workshop
+
+[Framhaldsnámskeið í hljóðmælingum]{.is}
+
+Marine and Freshwater Research Institute, Hafnarfjörður
+:::
+
+Four days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing, and MFRI acoustic data in the cloud — closing with project work and a field trip to Teledyne Gavia.
+
+::: {.info-grid}
+<div>
+**Venue · Staðsetning**
+MFRI / Hafrannsóknastofnun<br>
+Meeting room, 1st floor, by the canteen<br>
+[Fundarsalur á 1. hæð við mötuneytið]{.is}
+</div>
+<div>
+**Dates · Dagsetningar**
+Mon 5 – Thu 8 October 2026<br>
+Daily 08:30–16:30<br>
+`MFRI project 9277`
+</div>
+<div>
+**Contact · Umsjón**
+[Teresa Silva, Sigurður Þ. Jónsson]<br>
+[teresa.silva@hafogvatn.is]<br>
++354 575 2000
+</div>
+:::
+
+[Full programme →](programme.qmd){.btn .btn-primary}
+[Presentations →](presentations.qmd){.btn .btn-outline-primary}

@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+$mfri-blue:   #0076a9;
+$mfri-blue-7: #045f87;
+$mfri-navy:   #052836;
+$mfri-grey:   #5c6670;
+$mfri-ink:    #14181b;
+
+$body-bg: #ffffff;
+$body-color: $mfri-ink;
+$link-color: $mfri-blue-7;
+$presentation-heading-color: $mfri-ink;
+$presentation-heading-font: "Open Sans", system-ui, sans-serif;
+$presentation-heading-font-weight: 700;
+$font-family-sans-serif: "Open Sans", system-ui, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, monospace;
+$presentation-font-size-root: 34px;
+$presentation-h2-font-size: 1.7em;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap");
+
+.reveal h2 { border-bottom: 5px solid $mfri-blue; padding-bottom: .25em; letter-spacing: -0.015em; }
+.reveal .eyebrow {
+  font-family: $font-family-monospace; font-size: .6em; letter-spacing: .16em;
+  text-transform: uppercase; color: $mfri-blue;
+}
+.reveal .is { color: $mfri-grey; font-style: italic; }
+.reveal .muted { color: $mfri-grey; font-size: .75em; }
+
+// title slide on deep navy
+#title-slide { text-align: left; }
+#title-slide .title { color: #fff; font-size: 2.6em; letter-spacing: -0.02em; }
+#title-slide .subtitle { color: #a7d0e7; font-style: italic; }
+#title-slide .quarto-title-author-name, #title-slide .date { color: #d3e8f3; }
+
+// schedule table
+.reveal table.agenda { width: 100%; font-size: .72em; }
+.reveal table.agenda td:first-child { font-family: $font-family-monospace; color: $mfri-blue-7; white-space: nowrap; }
+.reveal table.agenda tr.break td { color: #889198; }
+
+.reveal .slide-logo { max-height: 56px !important; }
+.reveal .footer { color: $mfri-grey; font-size: .45em; }

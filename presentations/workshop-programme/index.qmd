@@ -1,0 +1,90 @@
+---
+title: "Advanced acoustic workshop"
+subtitle: "Framhaldsnámskeið í hljóðmælingum"
+author: "MFRI · Hafrannsóknastofnun"
+date: 2026-10-05
+format:
+  revealjs:
+    theme: [default, ../../theme/mfri-slides.scss]
+    logo: ../../images/hafro-emblem.png
+    footer: "Advanced acoustic workshop · 5–8 October 2026 · Project 9277"
+    slide-number: true
+    width: 1600
+    height: 900
+title-slide-attributes:
+  data-background-color: "#052836"
+---
+
+```{r}
+#| include: false
+source(file.path(Sys.getenv("QUARTO_PROJECT_DIR", "../.."), "R/agenda.R"))
+agenda <- read_agenda()
+day <- function(k) agenda[agenda$day == k, ]
+```
+
+## Where, when, who to ask
+
+[Practical information]{.eyebrow}
+
+:::: {.columns}
+::: {.column width="33%"}
+**Venue**<br>
+MFRI, meeting room<br>1st floor, by the canteen
+:::
+::: {.column width="33%"}
+**Dates**<br>
+Mon 5 – Thu 8 Oct<br>Daily 08:30–16:30
+:::
+::: {.column width="33%"}
+**Contact**<br>
+[Coordinator name]<br>+354 575 2000
+:::
+::::
+
+::: {.notes}
+Lunch breaks are short, so we keep to time.
+:::
+
+## Calibration & sonar data
+
+[Day 1 · Monday 5 October]{.eyebrow}
+
+```{r}
+#| echo: false
+#| results: asis
+agenda_table(day(1))
+```
+
+## ADCP operation & processing
+
+[Day 2 · Tuesday 6 October]{.eyebrow}
+
+```{r}
+#| echo: false
+#| results: asis
+agenda_table(day(2))
+```
+
+::: {.notes}
+Short ADCP lecture at 12:30, then we restart at 14:00.
+:::
+
+## Scrutiny, biomass & data infrastructure
+
+[Day 3 · Wednesday 7 October]{.eyebrow}
+
+```{r}
+#| echo: false
+#| results: asis
+agenda_table(day(3))
+```
+
+## Project work & field trip
+
+[Day 4 · Thursday 8 October]{.eyebrow}
+
+```{r}
+#| echo: false
+#| results: asis
+agenda_table(day(4))
+```

@@ -1,0 +1,18 @@
+day,date_en,date_is,theme,start,end,session,speakers,type
+1,Monday 5 October,Mánudagur 5. október,Calibration & sonar data,08:30,10:30,"Calibration of EK80, ADCP / Pinnacle","Sigvaldi, Frank",session
+1,Monday 5 October,Mánudagur 5. október,Calibration & sonar data,10:45,11:30,Hands-on exercise on board the new vessel,,session
+1,Monday 5 October,Mánudagur 5. október,Calibration & sonar data,11:30,12:00,Lunch · Matarhlé,,break
+1,Monday 5 October,Mánudagur 5. október,Calibration & sonar data,12:30,16:30,Analysis of sonar data,"Hector, IMR",session
+2,Tuesday 6 October,Þriðjudagur 6. október,ADCP operation & processing,08:30,11:30,ADCP settings and operation — EC150 and Pinnacle,"Frank, WHOI · Andreas",session
+2,Tuesday 6 October,Þriðjudagur 6. október,ADCP operation & processing,11:30,12:00,Lunch · Matarhlé,,break
+2,Tuesday 6 October,Þriðjudagur 6. október,ADCP operation & processing,12:30,13:00,ADCP lecture,,session
+2,Tuesday 6 October,Þriðjudagur 6. október,ADCP operation & processing,14:00,16:30,Data processing and display during the cruise,"Frank, WHOI · Andreas",session
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",08:30,10:30,Advanced acoustic scrutiny with Korona for behavioural analysis,"Kjetil, DTU",session
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",10:45,12:00,Korona libraries and noise removal with LSSS,Teresa,session
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",12:00,12:30,Lunch · Matarhlé,,break
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",13:00,15:00,NMEA extraction using Korona & estimation of biomass in R,Sigurður,session
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",15:15,16:00,Introduction to AI for processing data using Python,"Mandana, HI / MFRI",session
+3,Wednesday 7 October,Miðvikudagur 7. október,"Scrutiny, biomass & data infrastructure",16:00,16:30,"Acoustic database, Screen Connect, MFRI acoustic data in the cloud","Sigurvin, Teresa, Sigurður",session
+4,Thursday 8 October,Fimmtudagur 8. október,Project work & field trip,09:00,13:30,Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea),Project 9123,session
+4,Thursday 8 October,Fimmtudagur 8. október,Project work & field trip,09:00,13:30,Working project — Current measurements,Project 14224,session
+4,Thursday 8 October,Fimmtudagur 8. október,Project work & field trip,14:00,16:00,"Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation",,field

@@ -1,0 +1,17 @@
+---
+title: "Programme"
+subtitle: "Dagskrá · 5–8 October 2026"
+---
+
+```{r}
+#| include: false
+source(file.path(Sys.getenv("QUARTO_PROJECT_DIR", "."), "R/agenda.R"))
+```
+
+The workshop is held in the meeting room on the 1st floor of MFRI, by the canteen. The agenda is generated from [`data/agenda.csv`](https://github.com/<github-user>/<repo-name>/blob/main/data/agenda.csv) — edit that file to update every page and slide.
+
+```{r}
+#| echo: false
+#| results: asis
+agenda_all()
+```

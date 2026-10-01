@@ -1,0 +1,48 @@
+---
+# Copy this folder to presentations/<your-talk-name>/ and edit.
+# Folders starting with "_" are not rendered, so this starter stays hidden.
+title: "Session title"
+subtitle: "Optional Icelandic title"
+author: "Presenter name, Affiliation"
+date: 2026-10-06
+format:
+  revealjs:
+    theme: [default, ../../theme/mfri-slides.scss]
+    logo: ../../images/hafro-emblem.png
+    footer: "Advanced acoustic workshop · 5–8 October 2026"
+    slide-number: true
+    width: 1600
+    height: 900
+title-slide-attributes:
+  data-background-color: "#052836"
+---
+
+## Outline
+
+[Section label]{.eyebrow}
+
+- First point
+- Second point
+- Third point
+
+::: {.notes}
+Speaker notes go here — press S during the talk to see them.
+:::
+
+## A figure from R
+
+```{r}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 4.5
+depth <- seq(0, 300, by = 5)
+sv <- -70 + 15 * exp(-((depth - 120) / 40)^2) + rnorm(length(depth), 0, 1.5)
+plot(sv, depth, type = "l", ylim = rev(range(depth)), col = "#0076a9", lwd = 2,
+     xlab = "Sv (dB re 1 m⁻¹)", ylab = "Depth (m)", las = 1, bty = "l")
+```
+
+## Images
+
+![Caption](../../images/hafro-emblem.png){width=200}
+
+Put talk-specific images next to this file, e.g. `images/echogram.png`.

@@ -1,0 +1,17 @@
+---
+title: "Presentations"
+subtitle: "Glærur"
+toc: false
+listing:
+  contents: "presentations/*/index.qmd"
+  type: table
+  sort: "date"
+  fields: [date, title, author]
+  field-display-names:
+    date: "Day"
+    title: "Presentation"
+    author: "Presenter"
+  date-format: "ddd D MMM"
+---
+
+Slides open full-screen. Press **F** for full-screen, **S** for speaker notes, **E** to print to PDF.

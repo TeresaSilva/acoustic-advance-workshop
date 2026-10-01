@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  freeze: auto
+
+website:
+  title: "Advanced acoustic workshop"
+  site-url: "https://<github-user>.github.io/<repo-name>/"
+  repo-url: "https://github.com/<github-user>/<repo-name>"
+  repo-actions: [edit, issue]
+  favicon: images/hafro-emblem.png
+  page-navigation: true
+  navbar:
+    logo: images/hafro-emblem.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: programme.qmd
+        text: Programme
+      - href: instructors.qmd
+        text: Instructors
+      - href: presentations.qmd
+        text: Presentations
+    right:
+      - icon: github
+        href: "https://github.com/<github-user>/<repo-name>"
+  page-footer:
+    left: "Hafrannsóknastofnun · Marine and Freshwater Research Institute"
+    right: "Project 9277 · 5–8 October 2026"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme/mfri.scss]
+    toc: true
+    lang: en
