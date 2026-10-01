@@ -32,10 +32,9 @@ Edit `data/agenda.csv`. The Programme page and the programme slides are both gen
 ## Publish on GitHub Pages
 
 1. Create a repo on GitHub and push this folder to `main`.
-2. Replace `<github-user>` / `<repo-name>` in `_quarto.yml` and `programme.qmd`.
-3. Run once locally: `quarto publish gh-pages` (creates the `gh-pages` branch).
-4. In the repo: **Settings → Pages → Source: Deploy from branch → `gh-pages`**.
-5. In **Settings → Actions → General**, set workflow permissions to *Read and write*.
+2. Run once locally: `quarto publish gh-pages` (creates the `gh-pages` branch).
+3. In the repo: **Settings → Pages → Source: Deploy from branch → `gh-pages`**.
+4. In **Settings → Actions → General**, set workflow permissions to *Read and write*.
 
 After that, every push to `main` rebuilds and publishes the site.
 
