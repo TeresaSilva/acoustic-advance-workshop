@@ -23,6 +23,8 @@ website:
         text: Instructors
       - href: presentations.qmd
         text: Presentations
+      - href: setup.qmd
+        text: Setup
     right:
       - icon: github
         href: "https://github.com/TeresaSilva/acoustic-advance-workshop"

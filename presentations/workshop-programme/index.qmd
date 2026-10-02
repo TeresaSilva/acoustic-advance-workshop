@@ -1,6 +1,5 @@
 ---
 title: "Advanced acoustic workshop"
-subtitle: "Framhaldsnámskeið í hljóðmælingum"
 author: "MFRI · Hafrannsóknastofnun"
 date: 2026-10-05
 format:
@@ -33,7 +32,7 @@ MFRI, meeting room<br>1st floor, by the canteen
 :::
 ::: {.column width="33%"}
 **Dates**<br>
-Mon 5 – Thu 8 Oct<br>Daily 08:30–16:30
+Mon 5 – Thu 8 Oct<br>Mon 09:00 · Tue–Wed 08:30 · Thu 09:00–15:00
 :::
 ::: {.column width="33%"}
 **Contact**<br>
@@ -79,7 +78,7 @@ Short ADCP lecture at 12:30, then we restart at 14:00.
 agenda_table(day(3))
 ```
 
-## Project work & field trip
+## Project work
 
 [Day 4 · Thursday 8 October]{.eyebrow}
 

@@ -1,0 +1,124 @@
+---
+title: "Software setup"
+subtitle: "Uppsetning hugbúnaðar"
+---
+
+Please install **LSSS**, **Python** and **R** on your laptop before the workshop starts on Monday 5 October. Allow about 45 minutes. If something fails, bring your laptop on Monday morning and we will sort it out together.
+
+On an MFRI laptop you may need administrator rights for the Windows installers. If so, contact MFRI IT.
+
+## LSSS
+
+LSSS (Large Scale Survey System) is free software from [Marec](https://marec.no/). The download also includes **KORONA**, which we use on Wednesday. These instructions are for **LSSS 3.3.0** (September 2026). The download is about 130 MB.
+
+::: {.panel-tabset}
+
+### Windows
+
+1. Go to <https://marec.no/downloads.htm> and download **`lsss-3.3.0-20260902-0905.exe`**.
+2. Run the installer. If Windows shows *"Windows protected your PC"*, click **More info → Run anyway**.
+3. Start **LSSS** from the Start menu.
+
+### macOS
+
+The Mac version of LSSS is built for Intel processors. On a Mac with an Apple chip (M1–M5), it runs through Apple's Rosetta 2 translation layer.
+
+1. **Check your chip.** Open the **Apple menu → About This Mac**. If *Chip* says *Apple M…*, install Rosetta once in **Terminal**:
+
+   ```bash
+   softwareupdate --install-rosetta --agree-to-license
+   ```
+
+2. Go to <https://marec.no/downloads.htm> and download **`lsss-3.3.0-20260902-0905-macos.zip`**.
+3. Double-click the zip in *Downloads*. It contains a second zip, **`lsss-3.3.0-macos.zip`**. Double-click that one too.
+4. Move the resulting **`lsss-3.3.0`** folder into your home folder.
+5. LSSS is not signed by Apple, so macOS will block it. Allow it to run with this Terminal command:
+
+   ```bash
+   xattr -dr com.apple.quarantine ~/lsss-3.3.0
+   ```
+
+6. Start LSSS by double-clicking **`lsss-3.3.0/lsss/LSSS.command`**. KORONA's launchers are in `lsss-3.3.0/korona/`.
+
+:::
+
+**Memory.** By default, LSSS uses 2/3 of your computer's memory, up to 30 GB. To use less, set the environment variable `LSSS_MAX_MEMORY_MB`, e.g. `4096`.
+
+**Check:** LSSS opens and shows its main window.
+
+## Python
+
+We use **Miniforge**, a small, free installer that gets packages from the open conda-forge channel. You don't need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation.
+
+::: {.panel-tabset}
+
+### Windows
+
+1. Download **`Miniforge3-Windows-x86_64.exe`** from <https://github.com/conda-forge/miniforge/releases/latest> and run it. Choose *Just me* and keep the default options.
+2. Open **Miniforge Prompt** from the Start menu and create the workshop environment:
+
+   ```bash
+   conda create -n acoustics -c conda-forge echopype jupyterlab matplotlib
+   ```
+
+   Type `y` when asked.
+
+### macOS
+
+1. Open **Terminal** and run the following. It picks the right version for Intel or Apple-chip Macs automatically.
+
+   ```bash
+   curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+   bash Miniforge3-$(uname)-$(uname -m).sh
+   ```
+
+   Press Enter to read the licence, type `yes` to accept, and keep the default location. When asked whether to initialise conda, answer `yes`. Then close Terminal and open it again.
+
+2. Create the workshop environment:
+
+   ```bash
+   conda create -n acoustics -c conda-forge echopype jupyterlab matplotlib
+   ```
+
+   Type `y` when asked.
+
+:::
+
+**Check:** in Miniforge Prompt (Windows) or Terminal (macOS), run
+
+```bash
+conda activate acoustics
+python -c "import echopype; print(echopype.__version__)"
+```
+
+If this prints a version number, Python is ready. To start Jupyter during the workshop, run `conda activate acoustics` and then `jupyter lab`.
+
+## R
+
+We use **R** together with **RStudio**, a program for writing and running R code, in the biomass session on Wednesday. Install R first, then RStudio.
+
+::: {.panel-tabset}
+
+### Windows
+
+1. Go to <https://cran.r-project.org/bin/windows/base/>, download the latest R installer (**Download R-4.x.x for Windows**) and run it with the default options.
+2. Go to <https://posit.co/download/rstudio-desktop/>, download **RStudio Desktop** for Windows and install it.
+
+### macOS
+
+1. Go to <https://cran.r-project.org/bin/macosx/> and download the latest R installer for your chip: **arm64** for Apple M… Macs, **x86_64** for Intel Macs. Open the `.pkg` and follow the steps.
+2. Go to <https://posit.co/download/rstudio-desktop/>, download **RStudio Desktop** for macOS, open the `.dmg` and drag RStudio into *Applications*.
+
+:::
+
+Open RStudio and install the workshop packages by typing this in the **Console**:
+
+```r
+install.packages(c("tidyverse", "sf", "rmarkdown"))
+```
+
+**Check:** run `library(tidyverse)` in the Console. If no error appears, R is ready.
+
+## Workshop data
+
+To upload your own data, follow the instructions in the [repository README](https://github.com/TeresaSilva/acoustic-advance-workshop#upload-your-data-participants).

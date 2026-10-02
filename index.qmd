@@ -10,12 +10,10 @@ title-block-style: none
 
 # Advanced acoustic workshop
 
-[Framhaldsnámskeið í hljóðmælingum]{.is}
-
 Marine and Freshwater Research Institute, Hafnarfjörður
 :::
 
-Four days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing, and MFRI acoustic data in the cloud — closing with project work and a field trip to Teledyne Gavia.
+Four days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.
 
 ::: {.info-grid}
 <div>
@@ -27,13 +25,13 @@ Meeting room, 1st floor, by the canteen<br>
 <div>
 **Dates · Dagsetningar**
 Mon 5 – Thu 8 October 2026<br>
-Daily 08:30–16:30<br>
+Mon 09:00–16:30 · Tue–Wed 08:30–16:30<br>Thu 09:00–15:00<br>
 `MFRI project 9277`
 </div>
 <div>
 **Contact · Umsjón**
-[Teresa Silva, Sigurður Þ. Jónsson]<br>
-[teresa.silva@hafogvatn.is]<br>
+Teresa Silva, Sigurður Þ. Jónsson<br>
+<teresa.silva@hafogvatn.is><br>
 +354 575 2000
 </div>
 :::

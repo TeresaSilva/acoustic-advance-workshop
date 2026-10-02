@@ -1,0 +1,18 @@
+---
+title: "Calibration of EK80"
+subtitle: "Sound in water, beam theory and EK80 calibration"
+author: "Sigvaldi Árnason, MFRI"
+date: 2026-10-05
+toc: false
+resources:
+  - "*.pptx"
+---
+
+Session slides from Monday 5 October, 09:00–10:30. Each file downloads as PowerPoint (.pptx).
+
+| Slides | Content | Size |
+|---|---|---|
+| [Sound in Water and the EK80](Sound_in_Water_EK80.pptx) | Acoustic first principles to wideband, calibrated echo sounding | 0.4 MB |
+| [The Theory of Sound in Water](Sound_Theory_Beam_Directivity_Gain.pptx) | Transmit power and intensity, the single beam, directivity, gain and equivalent beam angle | 0.3 MB |
+| [Calibration](Calibration.pptx) | Calibration of EK60, EK80, ES60 and ES70 | 28.6 MB |
+| [Calibrating the EK80](EK80_Calibration_Guide.pptx) | Setup, calibration, data collection and troubleshooting | 0.4 MB |
