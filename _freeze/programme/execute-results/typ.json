@@ -1,0 +1,17 @@
+{
+  "hash": "e6012045433f0e4477b88029b628422c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Programme\"\nsubtitle: \"Dagskrá · 5–8 October 2026\"\nformat:\n  html:\n    format-links: [typst]\n  typst:\n    output-file: workshop-programme.pdf\n    papersize: a4\n    margin:\n      x: 2cm\n      y: 2cm\n    fontsize: 10pt\n    toc: false\n    format-links: false\n---\n\n\n\nThe workshop is held in the meeting room on the 1st floor of MFRI, by the canteen. The agenda is generated from [`data/agenda.csv`](https://github.com/TeresaSilva/acoustic-advance-workshop/blob/main/data/agenda.csv) — edit that file to update every page and slide.\n\n::: {.content-visible when-format=\"html\"}\n[Download the full programme as PDF](workshop-programme.pdf){.btn .btn-outline-primary .btn-sm}\n:::\n\n## Day 1 · Monday 5 October\n\n[Mánudagur 5. október — Calibration & sonar data]{.is}\n\n\n| Time | Session |\n|---------|-------------------------------------------------------------|\n| 09:00–10:30 | **Calibration of EK80, ADCP / Pinnacle** · *Sigvaldi, Frank* |\n| 10:45–11:30 | **Hands-on exercise on board the new vessel** |\n| 11:30–12:00 | *Lunch · Matarhlé* |\n| 12:30–16:30 | **Analysis of sonar data** · *Hector, IMR* |\n\n## Day 2 · Tuesday 6 October\n\n[Þriðjudagur 6. október — ADCP operation & processing]{.is}\n\n\n| Time | Session |\n|---------|-------------------------------------------------------------|\n| 08:30–11:30 | **ADCP settings and operation — EC150 and Pinnacle** · *Frank, WHOI · Andreas* |\n| 11:30–12:00 | *Lunch · Matarhlé* |\n| 12:30–13:00 | **ADCP lecture** |\n| 14:00–16:30 | **Data processing and display during the cruise** · *Frank, WHOI · Andreas* |\n\n## Day 3 · Wednesday 7 October\n\n[Miðvikudagur 7. október — Scrutiny, biomass & data infrastructure]{.is}\n\n\n| Time | Session |\n|---------|-------------------------------------------------------------|\n| 08:30–10:15 | **Advanced acoustic scrutiny with Korona for behavioural analysis** · *Kjetil, DTU* |\n| 10:15–12:15 | **Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation** |\n| 12:15–12:45 | *Lunch · Matarhlé* |\n| 13:00–14:00 | **Korona libraries and noise removal with LSSS** · *Teresa* |\n| 14:00–15:00 | **NMEA extraction using Korona & estimation of biomass in R** · *Sigurður* |\n| 15:15–16:00 | **Introduction to AI for processing data using Python** · *Mandana, HI / MFRI* |\n| 16:00–16:30 | **Acoustic database, Screen Connect, MFRI acoustic data in the cloud** · *Sigurvin, Teresa, Sigurður* |\n\n## Day 4 · Thursday 8 October\n\n[Fimmtudagur 8. október — Project work]{.is}\n\n\n| Time | Session |\n|---------|-------------------------------------------------------------|\n| 09:00–12:00 | **Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)** · *Project 9123* |\n| 09:00–12:00 | **Working project — Current measurements** · *Project 14224* |\n| 12:00–12:30 | *Lunch · Matarhlé* |\n| 12:30–15:00 | **Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)** · *Project 9123* |\n| 12:30–15:00 | **Working project — Current measurements (continued)** · *Project 14224* |\n",
+    "supporting": [
+      "programme_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

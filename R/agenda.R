@@ -16,8 +16,21 @@ esc <- function(x) {
   gsub(">", "&gt;", x, fixed = TRUE)
 }
 
+# Markdown table for non-HTML output (the PDF of the programme)
+agenda_table_md <- function(d) {
+  md <- function(x) gsub("([*_|\\[\\]])", "\\\\\\1", ifelse(is.na(x), "", x))
+  rows <- ifelse(
+    d$type == "break",
+    sprintf("| %s–%s | *%s* |", d$start, d$end, md(d$session)),
+    sprintf("| %s–%s | **%s**%s |", d$start, d$end, md(d$session),
+            ifelse(is.na(d$speakers), "", paste0(" · *", md(d$speakers), "*")))
+  )
+  cat("\n| Time | Session |\n|---------|-------------------------------------------------------------|\n", paste(rows, collapse = "\n"), "\n\n", sep = "")
+}
+
 # HTML table for one day (works in both website pages and revealjs slides)
 agenda_table <- function(d) {
+  if (!knitr::is_html_output()) return(agenda_table_md(d))
   rows <- sprintf(
     '<tr class="%s"><td>%s–%s</td><td><strong>%s</strong>%s</td></tr>',
     ifelse(d$type == "break", "break", d$type),
@@ -37,7 +50,7 @@ agenda_all <- function(agenda = read_agenda(), level = 2) {
   for (k in unique(agenda$day)) {
     d <- agenda[agenda$day == k, ]
     cat(strrep("#", level), " Day ", k, " · ", d$date_en[1], "\n\n", sep = "")
-    cat('<span class="is">', d$date_is[1], " — ", esc(d$theme[1]), "</span>\n\n", sep = "")
+    cat("[", d$date_is[1], " — ", d$theme[1], "]{.is}\n\n", sep = "")
     agenda_table(d)
   }
 }

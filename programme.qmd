@@ -1,6 +1,18 @@
 ---
 title: "Programme"
 subtitle: "Dagskrá · 5–8 October 2026"
+format:
+  html:
+    format-links: [typst]
+  typst:
+    output-file: workshop-programme.pdf
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+    fontsize: 10pt
+    toc: false
+    format-links: false
 ---
 
 ```{r}
@@ -9,6 +21,10 @@ source(file.path(Sys.getenv("QUARTO_PROJECT_DIR", "."), "R/agenda.R"))
 ```
 
 The workshop is held in the meeting room on the 1st floor of MFRI, by the canteen. The agenda is generated from [`data/agenda.csv`](https://github.com/TeresaSilva/acoustic-advance-workshop/blob/main/data/agenda.csv) — edit that file to update every page and slide.
+
+::: {.content-visible when-format="html"}
+[Download the full programme as PDF](workshop-programme.pdf){.btn .btn-outline-primary .btn-sm}
+:::
 
 ```{r}
 #| echo: false
