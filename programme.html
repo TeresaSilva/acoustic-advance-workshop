@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c11abc8cc2b203d8167704c6b3f98431.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5ece0e4a5ffbf02e28d4d657a8c77456.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-937274a5c93f1ba9622e695f1a9bc1a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2c4bd95e4e961d2b4461424f33a0e47f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,6 +115,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./setup.html"> 
+<span class="menu-text">Setup</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -176,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>08:30–10:30</td>
+<td>09:00–10:30</td>
 <td><strong>Calibration of EK80, ADCP / Pinnacle</strong><br>
 <span class="is">Sigvaldi, Frank</span></td>
 </tr>
@@ -236,30 +243,34 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>08:30–10:30</td>
+<td>08:30–10:15</td>
 <td><strong>Advanced acoustic scrutiny with Korona for behavioural analysis</strong><br>
 <span class="is">Kjetil, DTU</span></td>
 </tr>
-<tr class="session even">
-<td>10:45–12:00</td>
-<td><strong>Korona libraries and noise removal with LSSS</strong><br>
-<span class="is">Teresa</span></td>
+<tr class="field even">
+<td>10:15–12:15</td>
+<td><strong>Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation</strong></td>
 </tr>
 <tr class="break odd">
-<td>12:00–12:30</td>
+<td>12:15–12:45</td>
 <td><strong></strong>Lunch · Matarhlé</td>
 </tr>
 <tr class="session even">
-<td>13:00–15:00</td>
+<td>13:00–14:00</td>
+<td><strong>Korona libraries and noise removal with LSSS</strong><br>
+<span class="is">Teresa</span></td>
+</tr>
+<tr class="session odd">
+<td>14:00–15:00</td>
 <td><strong>NMEA extraction using Korona &amp; estimation of biomass in R</strong><br>
 <span class="is">Sigurður</span></td>
 </tr>
-<tr class="session odd">
+<tr class="session even">
 <td>15:15–16:00</td>
 <td><strong>Introduction to AI for processing data using Python</strong><br>
 <span class="is">Mandana, HI / MFRI</span></td>
 </tr>
-<tr class="session even">
+<tr class="session odd">
 <td>16:00–16:30</td>
 <td><strong>Acoustic database, Screen Connect, MFRI acoustic data in the cloud</strong><br>
 <span class="is">Sigurvin, Teresa, Sigurður</span></td>
@@ -269,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="day-4-thursday-8-october" class="level2">
 <h2 class="anchored" data-anchor-id="day-4-thursday-8-october">Day 4 · Thursday 8 October</h2>
-<p><span class="is">Fimmtudagur 8. október — Project work &amp; field trip</span></p>
+<p><span class="is">Fimmtudagur 8. október — Project work</span></p>
 <table class="table agenda caption-top">
 <colgroup>
 <col style="width: 50%">
@@ -277,18 +288,28 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>09:00–13:30</td>
+<td>09:00–12:00</td>
 <td><strong>Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)</strong><br>
 <span class="is">Project 9123</span></td>
 </tr>
 <tr class="session even">
-<td>09:00–13:30</td>
+<td>09:00–12:00</td>
 <td><strong>Working project — Current measurements</strong><br>
 <span class="is">Project 14224</span></td>
 </tr>
-<tr class="field odd">
-<td>14:00–16:00</td>
-<td><strong>Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation</strong></td>
+<tr class="break odd">
+<td>12:00–12:30</td>
+<td><strong></strong>Lunch · Matarhlé</td>
+</tr>
+<tr class="session even">
+<td>12:30–15:00</td>
+<td><strong>Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)</strong><br>
+<span class="is">Project 9123</span></td>
+</tr>
+<tr class="session odd">
+<td>12:30–15:00</td>
+<td><strong>Working project — Current measurements (continued)</strong><br>
+<span class="is">Project 14224</span></td>
 </tr>
 </tbody>
 </table>

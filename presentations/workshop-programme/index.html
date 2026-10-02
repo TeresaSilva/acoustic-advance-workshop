@@ -7,8 +7,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="MFRI · Hafrannsóknastofnun">
   <meta name="dcterms.date" content="2026-10-05">
@@ -22,10 +22,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -133,12 +136,11 @@
 
 <section id="title-slide" data-background-color="#052836" class="quarto-title-block center">
   <h1 class="title">Advanced acoustic workshop</h1>
-  <p class="subtitle">Framhaldsnámskeið í hljóðmælingum</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-MFRI · Hafrannsóknastofnun 
+MFRI · Hafrannsóknastofnun
 </div>
 </div>
 </div>
@@ -152,7 +154,7 @@ MFRI · Hafrannsóknastofnun
 <div class="column" style="width:33%;">
 <p><strong>Venue</strong><br> MFRI, meeting room<br>1st floor, by the canteen</p>
 </div><div class="column" style="width:33%;">
-<p><strong>Dates</strong><br> Mon 5 – Thu 8 Oct<br>Daily 08:30–16:30</p>
+<p><strong>Dates</strong><br> Mon 5 – Thu 8 Oct<br>Mon 09:00 · Tue–Wed 08:30 · Thu 09:00–15:00</p>
 </div><div class="column" style="width:33%;">
 <p><strong>Contact</strong><br> [Coordinator name]<br>+354 575 2000</p>
 </div></div>
@@ -180,7 +182,7 @@ MFRI · Hafrannsóknastofnun
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>08:30–10:30</td>
+<td>09:00–10:30</td>
 <td><strong>Calibration of EK80, ADCP / Pinnacle</strong><br>
 <span class="is">Sigvaldi, Frank</span></td>
 </tr>
@@ -253,30 +255,34 @@ MFRI · Hafrannsóknastofnun
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>08:30–10:30</td>
+<td>08:30–10:15</td>
 <td><strong>Advanced acoustic scrutiny with Korona for behavioural analysis</strong><br>
 <span class="is">Kjetil, DTU</span></td>
 </tr>
-<tr class="session even">
-<td>10:45–12:00</td>
-<td><strong>Korona libraries and noise removal with LSSS</strong><br>
-<span class="is">Teresa</span></td>
+<tr class="field even">
+<td>10:15–12:15</td>
+<td><strong>Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation</strong></td>
 </tr>
 <tr class="break odd">
-<td>12:00–12:30</td>
+<td>12:15–12:45</td>
 <td><strong></strong>Lunch · Matarhlé</td>
 </tr>
 <tr class="session even">
-<td>13:00–15:00</td>
+<td>13:00–14:00</td>
+<td><strong>Korona libraries and noise removal with LSSS</strong><br>
+<span class="is">Teresa</span></td>
+</tr>
+<tr class="session odd">
+<td>14:00–15:00</td>
 <td><strong>NMEA extraction using Korona &amp; estimation of biomass in R</strong><br>
 <span class="is">Sigurður</span></td>
 </tr>
-<tr class="session odd">
+<tr class="session even">
 <td>15:15–16:00</td>
 <td><strong>Introduction to AI for processing data using Python</strong><br>
 <span class="is">Mandana, HI / MFRI</span></td>
 </tr>
-<tr class="session even">
+<tr class="session odd">
 <td>16:00–16:30</td>
 <td><strong>Acoustic database, Screen Connect, MFRI acoustic data in the cloud</strong><br>
 <span class="is">Sigurvin, Teresa, Sigurður</span></td>
@@ -284,8 +290,8 @@ MFRI · Hafrannsóknastofnun
 </tbody>
 </table>
 </section>
-<section id="project-work-field-trip" class="slide level2">
-<h2>Project work &amp; field trip</h2>
+<section id="project-work" class="slide level2">
+<h2>Project work</h2>
 <p><span class="eyebrow">Day 4 · Thursday 8 October</span></p>
 <table class="table agenda caption-top">
 <colgroup>
@@ -294,18 +300,28 @@ MFRI · Hafrannsóknastofnun
 </colgroup>
 <tbody>
 <tr class="session odd">
-<td>09:00–13:30</td>
+<td>09:00–12:00</td>
 <td><strong>Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)</strong><br>
 <span class="is">Project 9123</span></td>
 </tr>
 <tr class="session even">
-<td>09:00–13:30</td>
+<td>09:00–12:00</td>
 <td><strong>Working project — Current measurements</strong><br>
 <span class="is">Project 14224</span></td>
 </tr>
-<tr class="field odd">
-<td>14:00–16:00</td>
-<td><strong>Field trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation</strong></td>
+<tr class="break odd">
+<td>12:00–12:30</td>
+<td><strong></strong>Lunch · Matarhlé</td>
+</tr>
+<tr class="session even">
+<td>12:30–15:00</td>
+<td><strong>Working project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)</strong><br>
+<span class="is">Project 9123</span></td>
+</tr>
+<tr class="session odd">
+<td>12:30–15:00</td>
+<td><strong>Working project — Current measurements (continued)</strong><br>
+<span class="is">Project 14224</span></td>
 </tr>
 </tbody>
 </table>
@@ -528,6 +544,44 @@ MFRI · Hafrannsóknastofnun
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
