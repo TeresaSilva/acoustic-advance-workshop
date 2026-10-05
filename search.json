@@ -7,81 +7,18 @@
     "text": "Instructor\nAffiliation\nSessions\n\n\n\n\nSigvaldi Árnason\nMFRI\nCalibration\n\n\nFrank Bahr\nWHOI\nADCP, calibration, processing\n\n\nAndreas Macrander\nMFRI\nADCP operation, processing\n\n\nHector Pena\nIMR\nSonar data analysis\n\n\nKjetil G. Thorvaldsen\nDTU\nKorona, behavioural analysis\n\n\nTeresa Silva\nMFRI\nKorona libraries, LSSS, data infrastructure\n\n\nSigurður Þór Jónsson\nMFRI\nNMEA extraction, biomass in R\n\n\nMandana Mahgoli\nHI / MFRI\nAI and Python\n\n\nSigurvin\nMFRI\nAcoustic database, cloud access"
   },
   {
-    "objectID": "presentations/workshop-programme/index.html#where-when-who-to-ask",
-    "href": "presentations/workshop-programme/index.html#where-when-who-to-ask",
-    "title": "Advanced acoustic workshop",
-    "section": "Where, when, who to ask",
-    "text": "Where, when, who to ask\nPractical information\n\n\nVenue MFRI, meeting room1st floor, by the canteen\n\nDates Mon 5 – Thu 8 OctMon 09:00 · Tue–Wed 08:30 · Thu 09:00–15:00\n\nContact [Coordinator name]+354 575 2000\n\n\nLunch breaks are short, so we keep to time."
-  },
-  {
-    "objectID": "presentations/workshop-programme/index.html#calibration-sonar-data",
-    "href": "presentations/workshop-programme/index.html#calibration-sonar-data",
-    "title": "Advanced acoustic workshop",
-    "section": "Calibration & sonar data",
-    "text": "Calibration & sonar data\nDay 1 · Monday 5 October\n\n\n\n\n\n\n\n09:00–10:30\nCalibration of EK80, ADCP / Pinnacle\nSigvaldi, Frank\n\n\n10:45–11:30\nHands-on exercise on board the new vessel\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–16:30\nAnalysis of sonar data\nHector, IMR"
-  },
-  {
-    "objectID": "presentations/workshop-programme/index.html#adcp-operation-processing",
-    "href": "presentations/workshop-programme/index.html#adcp-operation-processing",
-    "title": "Advanced acoustic workshop",
-    "section": "ADCP operation & processing",
-    "text": "ADCP operation & processing\nDay 2 · Tuesday 6 October\n\n\n\n\n\n\n\n08:30–11:30\nADCP settings and operation — EC150 and Pinnacle\nFrank, WHOI · Andreas\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–13:00\nADCP lecture\n\n\n14:00–16:30\nData processing and display during the cruise\nFrank, WHOI · Andreas\n\n\n\n\nShort ADCP lecture at 12:30, then we restart at 14:00."
-  },
-  {
-    "objectID": "presentations/workshop-programme/index.html#scrutiny-biomass-data-infrastructure",
-    "href": "presentations/workshop-programme/index.html#scrutiny-biomass-data-infrastructure",
-    "title": "Advanced acoustic workshop",
-    "section": "Scrutiny, biomass & data infrastructure",
-    "text": "Scrutiny, biomass & data infrastructure\nDay 3 · Wednesday 7 October\n\n\n\n\n\n\n\n08:30–10:15\nAdvanced acoustic scrutiny with Korona for behavioural analysis\nKjetil, DTU\n\n\n10:15–12:15\nField trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation\n\n\n12:15–12:45\nLunch · Matarhlé\n\n\n13:00–14:00\nKorona libraries and noise removal with LSSS\nTeresa\n\n\n14:00–15:00\nNMEA extraction using Korona & estimation of biomass in R\nSigurður\n\n\n15:15–16:00\nIntroduction to AI for processing data using Python\nMandana, HI / MFRI\n\n\n16:00–16:30\nAcoustic database, Screen Connect, MFRI acoustic data in the cloud\nSigurvin, Teresa, Sigurður"
-  },
-  {
-    "objectID": "presentations/workshop-programme/index.html#project-work",
-    "href": "presentations/workshop-programme/index.html#project-work",
-    "title": "Advanced acoustic workshop",
-    "section": "Project work",
-    "text": "Project work\nDay 4 · Thursday 8 October\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements\nProject 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)\nProject 14224"
-  },
-  {
-    "objectID": "programme.html",
-    "href": "programme.html",
-    "title": "Programme",
+    "objectID": "presentations/Frank/index.html",
+    "href": "presentations/Frank/index.html",
+    "title": "Shipboard ADCPs: software tools to view velocity profiles",
     "section": "",
-    "text": "The workshop is held in the meeting room on the 1st floor of MFRI, by the canteen. The agenda is generated from data/agenda.csv — edit that file to update every page and slide.\nDownload the full programme as PDF"
+    "text": "Session slides from Monday 5 October, 09:00–10:30 (Calibration of EK80, ADCP / Pinnacle). The file downloads as PowerPoint (.pptx).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nShipboard ADCPs\nVMDAS, WinADCP and CODAS for viewing data from the TRDI Pinnacle 45 kHz and Simrad EC150, with calibration as a worked example\n7.1 MB"
   },
   {
-    "objectID": "programme.html#day-1-monday-5-october",
-    "href": "programme.html#day-1-monday-5-october",
-    "title": "Programme",
-    "section": "Day 1 · Monday 5 October",
-    "text": "Day 1 · Monday 5 October\nMánudagur 5. október — Calibration & sonar data\n\n\n\n\n\n\n\n09:00–10:30\nCalibration of EK80, ADCP / Pinnacle\nSigvaldi, Frank\n\n\n10:45–11:30\nHands-on exercise on board the new vessel\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–16:30\nAnalysis of sonar data\nHector, IMR"
-  },
-  {
-    "objectID": "programme.html#day-2-tuesday-6-october",
-    "href": "programme.html#day-2-tuesday-6-october",
-    "title": "Programme",
-    "section": "Day 2 · Tuesday 6 October",
-    "text": "Day 2 · Tuesday 6 October\nÞriðjudagur 6. október — ADCP operation & processing\n\n\n\n\n\n\n\n08:30–11:30\nADCP settings and operation — EC150 and Pinnacle\nFrank, WHOI · Andreas\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–13:00\nADCP lecture\n\n\n14:00–16:30\nData processing and display during the cruise\nFrank, WHOI · Andreas"
-  },
-  {
-    "objectID": "programme.html#day-3-wednesday-7-october",
-    "href": "programme.html#day-3-wednesday-7-october",
-    "title": "Programme",
-    "section": "Day 3 · Wednesday 7 October",
-    "text": "Day 3 · Wednesday 7 October\nMiðvikudagur 7. október — Scrutiny, biomass & data infrastructure\n\n\n\n\n\n\n\n08:30–10:15\nAdvanced acoustic scrutiny with Korona for behavioural analysis\nKjetil, DTU\n\n\n10:15–12:15\nField trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation\n\n\n12:15–12:45\nLunch · Matarhlé\n\n\n13:00–14:00\nKorona libraries and noise removal with LSSS\nTeresa\n\n\n14:00–15:00\nNMEA extraction using Korona & estimation of biomass in R\nSigurður\n\n\n15:15–16:00\nIntroduction to AI for processing data using Python\nMandana, HI / MFRI\n\n\n16:00–16:30\nAcoustic database, Screen Connect, MFRI acoustic data in the cloud\nSigurvin, Teresa, Sigurður"
-  },
-  {
-    "objectID": "programme.html#day-4-thursday-8-october",
-    "href": "programme.html#day-4-thursday-8-october",
-    "title": "Programme",
-    "section": "Day 4 · Thursday 8 October",
-    "text": "Day 4 · Thursday 8 October\nFimmtudagur 8. október — Project work\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements\nProject 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)\nProject 14224"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Advanced acoustic workshop",
+    "objectID": "presentations/Sigvaldi_calibration/index.html",
+    "href": "presentations/Sigvaldi_calibration/index.html",
+    "title": "Calibration of EK80",
     "section": "",
-    "text": "Workshop · Námskeið · 5–8 October 2026\n\nAdvanced acoustic workshop\nMarine and Freshwater Research Institute, Hafnarfjörður\n\n\nFour days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.\n\n\nVenue · Staðsetning MFRI / Hafrannsóknastofnun Meeting room, 1st floor, by the canteen Fundarsalur á 1. hæð við mötuneytið\n\n\nDates · Dagsetningar Mon 5 – Thu 8 October 2026 Mon 09:00–16:30 · Tue–Wed 08:30–16:30Thu 09:00–15:00 MFRI project 9277\n\n\nContact · Umsjón Teresa Silva, Sigurður Þ. Jónsson teresa.silva@hafogvatn.is +354 575 2000\n\n\nFull programme → Presentations →"
+    "text": "Session slides from Monday 5 October, 09:00–10:30. Each file downloads as PowerPoint (.pptx).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nSound in Water and the EK80\nAcoustic first principles to wideband, calibrated echo sounding\n0.4 MB\n\n\nThe Theory of Sound in Water\nTransmit power and intensity, the single beam, directivity, gain and equivalent beam angle\n0.3 MB\n\n\nCalibration\nCalibration of EK60, EK80, ES60 and ES70\n28.6 MB\n\n\nCalibrating the EK80\nSetup, calibration, data collection and troubleshooting\n0.4 MB"
   },
   {
     "objectID": "setup.html",
@@ -119,17 +56,87 @@
     "text": "Workshop data\nTo upload your own data, follow the instructions in the repository README."
   },
   {
-    "objectID": "presentations/Sigvaldi_calibration/index.html",
-    "href": "presentations/Sigvaldi_calibration/index.html",
-    "title": "Calibration of EK80",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advanced acoustic workshop",
     "section": "",
-    "text": "Session slides from Monday 5 October, 09:00–10:30. Each file downloads as PowerPoint (.pptx).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nSound in Water and the EK80\nAcoustic first principles to wideband, calibrated echo sounding\n0.4 MB\n\n\nThe Theory of Sound in Water\nTransmit power and intensity, the single beam, directivity, gain and equivalent beam angle\n0.3 MB\n\n\nCalibration\nCalibration of EK60, EK80, ES60 and ES70\n28.6 MB\n\n\nCalibrating the EK80\nSetup, calibration, data collection and troubleshooting\n0.4 MB"
+    "text": "Workshop · Námskeið · 5–8 October 2026\n\nAdvanced acoustic workshop\nMarine and Freshwater Research Institute, Hafnarfjörður\n\n\nFour days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.\n\n\nVenue · Staðsetning MFRI / Hafrannsóknastofnun Meeting room, 1st floor, by the canteen Fundarsalur á 1. hæð við mötuneytið\n\n\nDates · Dagsetningar Mon 5 – Thu 8 October 2026 Mon 09:00–16:30 · Tue–Wed 08:30–16:30Thu 09:00–15:00 MFRI project 9277\n\n\nContact · Umsjón Teresa Silva, Sigurður Þ. Jónsson teresa.silva@hafogvatn.is +354 575 2000\n\n\nFull programme → Presentations →"
+  },
+  {
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Programme",
+    "section": "",
+    "text": "The workshop is held in the meeting room on the 1st floor of MFRI, by the canteen. The agenda is generated from data/agenda.csv — edit that file to update every page and slide.\nDownload the full programme as PDF"
+  },
+  {
+    "objectID": "programme.html#day-1-monday-5-october",
+    "href": "programme.html#day-1-monday-5-october",
+    "title": "Programme",
+    "section": "Day 1 · Monday 5 October",
+    "text": "Day 1 · Monday 5 October\nMánudagur 5. október — Calibration & sonar data\n\n\n\n\n\n\n\n09:00–10:30\nCalibration of EK80, ADCP / Pinnacle\nSigvaldi, Frank\n\n\n10:45–11:30\nHands-on exercise on board the new vessel\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–16:30\nAnalysis of sonar data\nHector, IMR"
+  },
+  {
+    "objectID": "programme.html#day-2-tuesday-6-october",
+    "href": "programme.html#day-2-tuesday-6-october",
+    "title": "Programme",
+    "section": "Day 2 · Tuesday 6 October",
+    "text": "Day 2 · Tuesday 6 October\nÞriðjudagur 6. október — ADCP operation & processing\n\n\n\n\n\n\n\n08:30–11:30\nADCP settings and operation — EC150 and Pinnacle\nFrank, WHOI · Andreas\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–13:00\nADCP lecture\n\n\n14:00–16:30\nData processing and display during the cruise\nFrank, WHOI · Andreas"
+  },
+  {
+    "objectID": "programme.html#day-3-wednesday-7-october",
+    "href": "programme.html#day-3-wednesday-7-october",
+    "title": "Programme",
+    "section": "Day 3 · Wednesday 7 October",
+    "text": "Day 3 · Wednesday 7 October\nMiðvikudagur 7. október — Scrutiny, biomass & data infrastructure\n\n\n\n\n\n\n\n08:30–10:15\nAdvanced acoustic scrutiny with Korona for behavioural analysis\nKjetil, DTU\n\n\n10:15–12:15\nField trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation\n\n\n12:15–12:45\nLunch · Matarhlé\n\n\n13:00–14:00\nKorona libraries and noise removal with LSSS\nTeresa\n\n\n14:00–15:00\nNMEA extraction using Korona & estimation of biomass in R\nSigurður\n\n\n15:15–16:00\nIntroduction to AI for processing data using Python\nMandana, HI / MFRI\n\n\n16:00–16:30\nAcoustic database, Screen Connect, MFRI acoustic data in the cloud\nSigurvin, Teresa, Sigurður"
+  },
+  {
+    "objectID": "programme.html#day-4-thursday-8-october",
+    "href": "programme.html#day-4-thursday-8-october",
+    "title": "Programme",
+    "section": "Day 4 · Thursday 8 October",
+    "text": "Day 4 · Thursday 8 October\nFimmtudagur 8. október — Project work\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements\nProject 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)\nProject 14224"
+  },
+  {
+    "objectID": "presentations/workshop-programme/index.html#where-when-who-to-ask",
+    "href": "presentations/workshop-programme/index.html#where-when-who-to-ask",
+    "title": "Advanced acoustic workshop",
+    "section": "Where, when, who to ask",
+    "text": "Where, when, who to ask\nPractical information\n\n\nVenue MFRI, meeting room1st floor, by the canteen\n\nDates Mon 5 – Thu 8 OctMon 09:00 · Tue–Wed 08:30 · Thu 09:00–15:00\n\nContact [Coordinator name]+354 575 2000\n\n\nLunch breaks are short, so we keep to time."
+  },
+  {
+    "objectID": "presentations/workshop-programme/index.html#calibration-sonar-data",
+    "href": "presentations/workshop-programme/index.html#calibration-sonar-data",
+    "title": "Advanced acoustic workshop",
+    "section": "Calibration & sonar data",
+    "text": "Calibration & sonar data\nDay 1 · Monday 5 October\n\n\n\n\n\n\n\n09:00–10:30\nCalibration of EK80, ADCP / Pinnacle\nSigvaldi, Frank\n\n\n10:45–11:30\nHands-on exercise on board the new vessel\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–16:30\nAnalysis of sonar data\nHector, IMR"
+  },
+  {
+    "objectID": "presentations/workshop-programme/index.html#adcp-operation-processing",
+    "href": "presentations/workshop-programme/index.html#adcp-operation-processing",
+    "title": "Advanced acoustic workshop",
+    "section": "ADCP operation & processing",
+    "text": "ADCP operation & processing\nDay 2 · Tuesday 6 October\n\n\n\n\n\n\n\n08:30–11:30\nADCP settings and operation — EC150 and Pinnacle\nFrank, WHOI · Andreas\n\n\n11:30–12:00\nLunch · Matarhlé\n\n\n12:30–13:00\nADCP lecture\n\n\n14:00–16:30\nData processing and display during the cruise\nFrank, WHOI · Andreas\n\n\n\n\nShort ADCP lecture at 12:30, then we restart at 14:00."
+  },
+  {
+    "objectID": "presentations/workshop-programme/index.html#scrutiny-biomass-data-infrastructure",
+    "href": "presentations/workshop-programme/index.html#scrutiny-biomass-data-infrastructure",
+    "title": "Advanced acoustic workshop",
+    "section": "Scrutiny, biomass & data infrastructure",
+    "text": "Scrutiny, biomass & data infrastructure\nDay 3 · Wednesday 7 October\n\n\n\n\n\n\n\n08:30–10:15\nAdvanced acoustic scrutiny with Korona for behavioural analysis\nKjetil, DTU\n\n\n10:15–12:15\nField trip — Teledyne Gavia, Kópavogur: field AUV demonstration and presentation\n\n\n12:15–12:45\nLunch · Matarhlé\n\n\n13:00–14:00\nKorona libraries and noise removal with LSSS\nTeresa\n\n\n14:00–15:00\nNMEA extraction using Korona & estimation of biomass in R\nSigurður\n\n\n15:15–16:00\nIntroduction to AI for processing data using Python\nMandana, HI / MFRI\n\n\n16:00–16:30\nAcoustic database, Screen Connect, MFRI acoustic data in the cloud\nSigurvin, Teresa, Sigurður"
+  },
+  {
+    "objectID": "presentations/workshop-programme/index.html#project-work",
+    "href": "presentations/workshop-programme/index.html#project-work",
+    "title": "Advanced acoustic workshop",
+    "section": "Project work",
+    "text": "Project work\nDay 4 · Thursday 8 October\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements\nProject 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued)\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)\nProject 14224"
   },
   {
     "objectID": "presentations.html",
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Slides open full-screen. Press F for full-screen, S for speaker notes, E to print to PDF.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Day - Oldest\n      \n      \n        Day - Newest\n      \n      \n        Presentation\n      \n      \n        Presenter\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDay\n\n\n\nPresentation\n\n\n\nPresenter\n\n\n\n\n\n\n\n\nMon 5 Oct\n\n\nCalibration of EK80\n\n\nSigvaldi Árnason, MFRI\n\n\n\n\n\n\nMon 5 Oct\n\n\nAdvanced acoustic workshop\n\n\nMFRI · Hafrannsóknastofnun\n\n\n\n\n\n\nNo matching items"
+    "text": "Slides open full-screen. Press F for full-screen, S for speaker notes, E to print to PDF.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Day - Oldest\n      \n      \n        Day - Newest\n      \n      \n        Presentation\n      \n      \n        Presenter\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDay\n\n\n\nPresentation\n\n\n\nPresenter\n\n\n\n\n\n\n\n\nMon 5 Oct\n\n\nShipboard ADCPs: software tools to view velocity profiles\n\n\nFrank Bahr, WHOI\n\n\n\n\n\n\nMon 5 Oct\n\n\nCalibration of EK80\n\n\nSigvaldi Árnason, MFRI\n\n\n\n\n\n\nMon 5 Oct\n\n\nAdvanced acoustic workshop\n\n\nMFRI · Hafrannsóknastofnun\n\n\n\n\n\n\nNo matching items"
   }
 ]
