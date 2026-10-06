@@ -1,0 +1,38 @@
+---
+title: "Field trip to Teledyne Gavia"
+subtitle: "Vettvangsferð · Wednesday 7 October, 10:15–12:15"
+toc: false
+---
+
+On Wednesday morning we visit **Teledyne Gavia** in Kópavogur, which builds the Gavia autonomous underwater vehicle (AUV). The visit includes a presentation and a field demonstration of the AUV.
+
+::: {.info-grid}
+<div>
+**Meet · Mæting**
+10:15, MFRI main entrance<br>
+Fornubúðir 5, 220 Hafnarfjörður<br>
+[Við aðalinngang Hafró]{.is}
+</div>
+<div>
+**Destination · Áfangastaður**
+Teledyne Gavia<br>
+Vesturvör 29, 200 Kópavogur<br>
+[Open in Google Maps](https://www.google.com/maps/search/?api=1&query=Teledyne+Gavia+Vesturv%C3%B6r+29+K%C3%B3pavogur)
+</div>
+<div>
+**Back · Til baka**
+12:15, lunch at MFRI<br>
+About 15 minutes' drive each way
+</div>
+:::
+
+## Getting there
+
+Participants travel **by their own transport**. There is also a **Hafró car** with a few free seats. If you need a lift, tell Teresa or Sigurður before Wednesday morning, and meet at the MFRI main entrance at 10:15.
+
+If you drive yourself, you can also go straight to Teledyne Gavia, but let us know so we don't wait for you at the entrance.
+
+## Bring
+
+- Warm, waterproof clothes. Part of the demonstration is outdoors by the sea.
+- Sturdy shoes.

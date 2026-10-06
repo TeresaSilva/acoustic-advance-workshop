@@ -13,7 +13,7 @@ title-block-style: none
 Marine and Freshwater Research Institute, Hafnarfjörður
 :::
 
-Four days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.
+Four days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a [field trip to Teledyne Gavia](field-trip.qmd) and a final day of project work.
 
 ::: {.info-grid}
 <div>

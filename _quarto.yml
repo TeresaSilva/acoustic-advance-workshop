@@ -23,6 +23,8 @@ website:
         text: Instructors
       - href: presentations.qmd
         text: Presentations
+      - href: field-trip.qmd
+        text: Field trip
       - href: setup.qmd
         text: Setup
     right:
