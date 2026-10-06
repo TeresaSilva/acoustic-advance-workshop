@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Presentations – Advanced acoustic workshop</title>
+<title>Field trip to Teledyne Gavia – Advanced acoustic workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/hafro-emblem.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -76,65 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -172,11 +112,11 @@ window.Quarto = {
 <span class="menu-text">Instructors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./presentations.html" aria-current="page"> 
+    <a class="nav-link" href="./presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./field-trip.html"> 
+    <a class="nav-link active" href="./field-trip.html" aria-current="page"> 
 <span class="menu-text">Field trip</span></a>
   </li>  
   <li class="nav-item">
@@ -207,8 +147,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
-<p class="subtitle lead">Glærur</p>
+<h1 class="title">Field trip to Teledyne Gavia</h1>
+<p class="subtitle lead">Vettvangsferð · Wednesday 7 October, 10:15–12:15</p>
 </div>
 
 
@@ -225,100 +165,34 @@ window.Quarto = {
 </header>
 
 
-<p>Slides open full-screen. Press <strong>F</strong> for full-screen, <strong>S</strong> for speaker notes, <strong>E</strong> to print to PDF.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Day - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Day - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Presentation
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Presenter
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<p>On Wednesday morning we visit <strong>Teledyne Gavia</strong> in Kópavogur, which builds the Gavia autonomous underwater vehicle (AUV). The visit includes a presentation and a field demonstration of the AUV.</p>
+<div class="info-grid">
+<div>
+<p><strong>Meet · Mæting</strong> 10:15, MFRI main entrance<br> Fornubúðir 5, 220 Hafnarfjörður<br> <span class="is">Við aðalinngang Hafró</span></p>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+<div>
+<p><strong>Destination · Áfangastaður</strong> Teledyne Gavia<br> Vesturvör 29, 200 Kópavogur<br> <a href="https://www.google.com/maps/search/?api=1&amp;query=Teledyne+Gavia+Vesturv%C3%B6r+29+K%C3%B3pavogur">Open in Google Maps</a></p>
+</div>
+<div>
+<p><strong>Back · Til baka</strong> 12:15, lunch at MFRI<br> About 15 minutes’ drive each way</p>
+</div>
+</div>
+<section id="getting-there" class="level2">
+<h2 class="anchored" data-anchor-id="getting-there">Getting there</h2>
+<p>Participants travel <strong>by their own transport</strong>. There is also a <strong>Hafró car</strong> with a few free seats. If you need a lift, tell Teresa or Sigurður before Wednesday morning, and meet at the MFRI main entrance at 10:15.</p>
+<p>If you drive yourself, you can also go straight to Teledyne Gavia, but let us know so we don’t wait for you at the entrance.</p>
+</section>
+<section id="bring" class="level2">
+<h2 class="anchored" data-anchor-id="bring">Bring</h2>
+<ul>
+<li>Warm, waterproof clothes. Part of the demonstration is outdoors by the sea.</li>
+<li>Sturdy shoes.</li>
+</ul>
 
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Day</a>
-</th>
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Presentation</a>
-</th>
+</section>
 
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Presenter</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791281551307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Shipboard ADCPs: software tools to view velocity profiles" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/Frank/index.html" class="title listing-title">Shipboard ADCPs: software tools to view velocity profiles</a>
-</td>
-<td>
-<span class="listing-author">Frank Bahr, WHOI</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791281551370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="Calibration of EK80" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/Sigvaldi_calibration/index.html" class="title listing-title">Calibration of EK80</a>
-</td>
-<td>
-<span class="listing-author">Sigvaldi Árnason, MFRI</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791281551370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112" data-listing-title-sort="Advanced acoustic workshop" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/workshop-programme/index.html" class="title listing-title">Advanced acoustic workshop</a>
-</td>
-<td>
-<span class="listing-author">MFRI · Hafrannsóknastofnun</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -727,7 +601,7 @@ window.Quarto = {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/edit/main/presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/edit/main/field-trip.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Project 9277 · 5–8 October 2026</p>
 </div>
