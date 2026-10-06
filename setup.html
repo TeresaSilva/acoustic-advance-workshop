@@ -246,7 +246,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="python" class="level2">
 <h2 class="anchored" data-anchor-id="python">Python</h2>
-<p>We use <strong>Miniforge</strong>, a small, free installer that gets packages from the open conda-forge channel. You don’t need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>For Mandana’s session: AI for processing data using Python (Wednesday 15:15–16:00)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mandana will demonstrate the practical examples herself rather than have everyone code along, because there is not enough time for all participants to work through them at once. Please install these Python libraries beforehand so the examples can be run directly during the workshop. The steps below install all of them:</p>
+<ul>
+<li>Echopype</li>
+<li>NumPy</li>
+<li>Pandas</li>
+<li>xarray</li>
+<li>Matplotlib</li>
+<li>SciPy</li>
+<li>scikit-learn</li>
+</ul>
+<p>The demonstrations are short and practical: acoustic data, cleaning and visualisation, and a brief machine-learning example.</p>
+</div>
+</div>
+<p>We use <strong>Miniforge</strong>, a small, free installer that gets packages from the open conda-forge channel. You don’t need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation. If you already created the <code>acoustics</code> environment, add the new libraries with <code>conda install -n acoustics -c conda-forge numpy pandas xarray scipy scikit-learn</code>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Windows</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">macOS</a></li></ul>
 <div class="tab-content">
@@ -254,7 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li><p>Download <strong><code>Miniforge3-Windows-x86_64.exe</code></strong> from <a href="https://github.com/conda-forge/miniforge/releases/latest" class="uri">https://github.com/conda-forge/miniforge/releases/latest</a> and run it. Choose <em>Just me</em> and keep the default options.</p></li>
 <li><p>Open <strong>Miniforge Prompt</strong> from the Start menu and create the workshop environment:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">-n</span> acoustics <span class="at">-c</span> conda-forge echopype jupyterlab matplotlib</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">-n</span> acoustics <span class="at">-c</span> conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Type <code>y</code> when asked.</p></li>
 </ol>
 </div>
@@ -265,7 +288,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">bash</span> Miniforge3-<span class="va">$(</span><span class="fu">uname</span><span class="va">)</span>-<span class="va">$(</span><span class="fu">uname</span> <span class="at">-m</span><span class="va">)</span>.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Press Enter to read the licence, type <code>yes</code> to accept, and keep the default location. When asked whether to initialise conda, answer <code>yes</code>. Then close Terminal and open it again.</p></li>
 <li><p>Create the workshop environment:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">-n</span> acoustics <span class="at">-c</span> conda-forge echopype jupyterlab matplotlib</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> create <span class="at">-n</span> acoustics <span class="at">-c</span> conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Type <code>y</code> when asked.</p></li>
 </ol>
 </div>
@@ -273,8 +296,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><strong>Check:</strong> in Miniforge Prompt (Windows) or Terminal (macOS), run</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate acoustics</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-c</span> <span class="st">"import echopype; print(echopype.__version__)"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>If this prints a version number, Python is ready. To start Jupyter during the workshop, run <code>conda activate acoustics</code> and then <code>jupyter lab</code>.</p>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-c</span> <span class="st">"import echopype, numpy, pandas, xarray, matplotlib, scipy, sklearn; print(echopype.__version__)"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If this prints a version number without errors, Python is ready. To start Jupyter during the workshop, run <code>conda activate acoustics</code> and then <code>jupyter lab</code>.</p>
 </section>
 <section id="r" class="level2">
 <h2 class="anchored" data-anchor-id="r">R</h2>
