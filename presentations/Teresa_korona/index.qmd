@@ -1,0 +1,15 @@
+---
+title: "Post-processing in LSSS: Korona modules"
+subtitle: "Cleaning and automatic categorisation of multi-frequency acoustic data, with examples from krill and capelin surveys"
+author: "Teresa Silva, MFRI"
+date: 2026-10-07
+toc: false
+resources:
+  - "*.pdf"
+---
+
+Session slides from Wednesday 7 October, 13:00–14:00. The file opens as PDF.
+
+| Slides | Content | Size |
+|---|---|---|
+| [Post-processing in LSSS: Korona modules](Silva_Korona_post_processing.pdf) | What Korona can do, multi-frequency categorisation and recent research, case studies on krill around Iceland and krill and capelin in East Greenland, and the hands-on exercises | 10.8 MB |
