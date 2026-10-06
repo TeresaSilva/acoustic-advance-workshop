@@ -48,7 +48,23 @@ The Mac version of LSSS is built for Intel processors. On a Mac with an Apple ch
 
 ## Python
 
-We use **Miniforge**, a small, free installer that gets packages from the open conda-forge channel. You don't need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation.
+::: {.callout-note}
+## For Mandana's session: AI for processing data using Python (Wednesday 15:15–16:00)
+
+Mandana will demonstrate the practical examples herself rather than have everyone code along, because there is not enough time for all participants to work through them at once. Please install these Python libraries beforehand so the examples can be run directly during the workshop. The steps below install all of them:
+
+- Echopype
+- NumPy
+- Pandas
+- xarray
+- Matplotlib
+- SciPy
+- scikit-learn
+
+The demonstrations are short and practical: acoustic data, cleaning and visualisation, and a brief machine-learning example.
+:::
+
+We use **Miniforge**, a small, free installer that gets packages from the open conda-forge channel. You don't need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation. If you already created the `acoustics` environment, add the new libraries with `conda install -n acoustics -c conda-forge numpy pandas xarray scipy scikit-learn`.
 
 ::: {.panel-tabset}
 
@@ -58,7 +74,7 @@ We use **Miniforge**, a small, free installer that gets packages from the open c
 2. Open **Miniforge Prompt** from the Start menu and create the workshop environment:
 
    ```bash
-   conda create -n acoustics -c conda-forge echopype jupyterlab matplotlib
+   conda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab
    ```
 
    Type `y` when asked.
@@ -77,7 +93,7 @@ We use **Miniforge**, a small, free installer that gets packages from the open c
 2. Create the workshop environment:
 
    ```bash
-   conda create -n acoustics -c conda-forge echopype jupyterlab matplotlib
+   conda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab
    ```
 
    Type `y` when asked.
@@ -88,10 +104,10 @@ We use **Miniforge**, a small, free installer that gets packages from the open c
 
 ```bash
 conda activate acoustics
-python -c "import echopype; print(echopype.__version__)"
+python -c "import echopype, numpy, pandas, xarray, matplotlib, scipy, sklearn; print(echopype.__version__)"
 ```
 
-If this prints a version number, Python is ready. To start Jupyter during the workshop, run `conda activate acoustics` and then `jupyter lab`.
+If this prints a version number without errors, Python is ready. To start Jupyter during the workshop, run `conda activate acoustics` and then `jupyter lab`.
 
 ## R
 
