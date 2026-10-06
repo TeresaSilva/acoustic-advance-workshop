@@ -1,0 +1,14 @@
+---
+title: "Introduction to AI for processing data using Python"
+author: "Mandana Mahgoli, HI / MFRI"
+date: 2026-10-07
+toc: false
+resources:
+  - "*.pdf"
+---
+
+Session slides from Wednesday 7 October, 15:15–16:00. The file opens as PDF.
+
+| Slides | Content | Size |
+|---|---|---|
+| [AI for processing acoustic data](Mandana_HAFRO_Workshop.pdf) | Two live examples with an AI assistant: simulating and cleaning a two-frequency echogram, and a random-forest classifier that predicts species from labelled schools, with what to check before trusting the code | 3.3 MB |
