@@ -1,0 +1,22 @@
+---
+title: "Interpretation of acoustic data from fisheries sonar"
+subtitle: "Analysis of sonar data"
+author: "Hector Pena, IMR"
+date: 2026-10-05
+toc: false
+resources:
+  - "*.pdf"
+---
+
+Session slides from Monday 5 October, 12:30–16:30. Each file opens as PDF.
+
+| Slides | Content | Size |
+|---|---|---|
+| [1. Basic theory and operation](Session1_Basic_theory_and_operation.pdf) | Concept of echosounding and how fisheries sonar works | 1.6 MB |
+| [2. Sonar calibration, school dimensions and target strength](Session2_Sonar_calibration_school_dimensions_TS.pdf) | From sonar and trawl data to individual school biomass | 2.8 MB |
+| [3. Data collection during surveying](Session3_Data_collection_during_surveying.pdf) | Clock synchronisation, file naming and preparation before data collection | 1.1 MB |
+| [4. Data scrutiny and school segmentation](Session4_Data_scrutiny_and_school_segmentation.pdf) | Getting started with Profos and preliminary inspection of sonar data | 1.4 MB |
+| [5. School segmentation and common data problems](Session5_School_segmentation_and_common_data_problems.pdf) | Step-by-step procedure for processing sonar data | 0.9 MB |
+| [6. Data outputs](Session6_Data_outputs.pdf) | Description of the output data per ping | 2.0 MB |
+| [7. Biomass estimates from case studies](Session7_Biomass_estimates_from_case_studies.pdf) | Individual school estimates and echo integration for schooling fish | 1.7 MB |
+| [8. Studies on schooling fish using sonar](Session8_Studies_on_schooling_fish_using_sonar.pdf) | Applications of sonar in studies of schooling fish | 3.0 MB |
