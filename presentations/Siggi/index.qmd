@@ -1,0 +1,14 @@
+---
+title: "Mehodology used for acoustic assessment of IEGJM capelin"
+author: "Sigurður Þór Jónsson, Hafró"
+date: 2026-10-07
+toc: false
+resources:
+  - "*.pdf"
+---
+
+Session slides from Wednesday 6 October, 03:00–16:30. The file downloads as PDF (.pdf).
+
+| Slides | Content | Size |
+|---|---|---|
+| [Capelin biomass esitmation](methods-stj-ts-adv-acou-course-oct-26-based-on-SFS-2025-04-03.pdf) | Presentation about IEGJM capelin survey design with example from winter 2025 and estimation method| 121 MB |
