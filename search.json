@@ -11,7 +11,7 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Slides open full-screen. Press F for full-screen, S for speaker notes, E to print to PDF.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Day - Oldest\n      \n      \n        Day - Newest\n      \n      \n        Presentation\n      \n      \n        Presenter\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDay\n\n\n\nPresentation\n\n\n\nPresenter\n\n\n\n\n\n\n\n\nMon 5 Oct\n\n\nShipboard ADCPs: software tools to view velocity profiles\n\n\nFrank Bahr, WHOI\n\n\n\n\n\n\nMon 5 Oct\n\n\nInterpretation of acoustic data from fisheries sonar\n\n\nHector Pena, IMR\n\n\n\n\n\n\nMon 5 Oct\n\n\nCalibration of EK80\n\n\nSigvaldi Árnason, MFRI\n\n\n\n\n\n\nMon 5 Oct\n\n\nAdvanced acoustic workshop\n\n\nMFRI · Hafrannsóknastofnun\n\n\n\n\n\n\nWed 7 Oct\n\n\nIntroduction to AI for processing data using Python\n\n\nMandana Mahgoli, HI / MFRI\n\n\n\n\n\n\nWed 7 Oct\n\n\nPost-processing in LSSS: Korona modules\n\n\nTeresa Silva, MFRI\n\n\n\n\n\n\nNo matching items"
+    "text": "Slides open full-screen. Press F for full-screen, S for speaker notes, E to print to PDF.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Day - Oldest\n      \n      \n        Day - Newest\n      \n      \n        Presentation\n      \n      \n        Presenter\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDay\n\n\n\nPresentation\n\n\n\nPresenter\n\n\n\n\n\n\n\n\nMon 5 Oct\n\n\nShipboard ADCPs: software tools to view velocity profiles\n\n\nFrank Bahr, WHOI\n\n\n\n\n\n\nMon 5 Oct\n\n\nInterpretation of acoustic data from fisheries sonar\n\n\nHector Pena, IMR\n\n\n\n\n\n\nMon 5 Oct\n\n\nCalibration of EK80\n\n\nSigvaldi Árnason, MFRI\n\n\n\n\n\n\nMon 5 Oct\n\n\nAdvanced acoustic workshop\n\n\nMFRI · Hafrannsóknastofnun\n\n\n\n\n\n\nWed 7 Oct\n\n\nIntroduction to AI for processing data using Python\n\n\nMandana Mahgoli, HI / MFRI\n\n\n\n\n\n\nWed 7 Oct\n\n\nMehodology used for acoustic assessment of IEGJM capelin\n\n\nSigurður Þór Jónsson, Hafró\n\n\n\n\n\n\nWed 7 Oct\n\n\nPost-processing in LSSS: Korona modules\n\n\nTeresa Silva, MFRI\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/Hector_sonar/index.html",
@@ -56,53 +56,11 @@
     "text": "Project work\nDay 4 · Thursday 8 October\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)- 4th floor meeting room\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements - 3rd floor meeting room\n Project 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued) - 4th floor meeting room\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)- 3rd floor meeting room\nProject 14224"
   },
   {
-    "objectID": "presentations/Mandana_AI/index.html",
-    "href": "presentations/Mandana_AI/index.html",
-    "title": "Introduction to AI for processing data using Python",
+    "objectID": "presentations/Sigvaldi_calibration/index.html",
+    "href": "presentations/Sigvaldi_calibration/index.html",
+    "title": "Calibration of EK80",
     "section": "",
-    "text": "Session slides from Wednesday 7 October, 15:15–16:00. The file opens as PDF.\n\n\n\nSlides\nContent\nSize\n\n\n\n\nAI for processing acoustic data\nTwo live examples with an AI assistant: simulating and cleaning a two-frequency echogram, and a random-forest classifier that predicts species from labelled schools, with what to check before trusting the code\n3.3 MB"
-  },
-  {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Software setup",
-    "section": "",
-    "text": "Please install LSSS, Python and R on your laptop before the workshop starts on Monday 5 October. Allow about 45 minutes. If something fails, bring your laptop on Monday morning and we will sort it out together.\nOn an MFRI laptop you may need administrator rights for the Windows installers. If so, contact MFRI IT."
-  },
-  {
-    "objectID": "setup.html#lsss",
-    "href": "setup.html#lsss",
-    "title": "Software setup",
-    "section": "LSSS",
-    "text": "LSSS\nLSSS (Large Scale Survey System) is free software from Marec. The download also includes KORONA, which we use on Wednesday. These instructions are for LSSS 3.3.0 (September 2026). The download is about 130 MB.\n\nWindowsmacOS\n\n\n\nGo to https://marec.no/downloads.htm and download lsss-3.3.0-20260902-0905.exe.\nRun the installer. If Windows shows “Windows protected your PC”, click More info → Run anyway.\nStart LSSS from the Start menu.\n\n\n\nThe Mac version of LSSS is built for Intel processors. On a Mac with an Apple chip (M1–M5), it runs through Apple’s Rosetta 2 translation layer.\n\nCheck your chip. Open the Apple menu → About This Mac. If Chip says Apple M…, install Rosetta once in Terminal:\nsoftwareupdate --install-rosetta --agree-to-license\nGo to https://marec.no/downloads.htm and download lsss-3.3.0-20260902-0905-macos.zip.\nDouble-click the zip in Downloads. It contains a second zip, lsss-3.3.0-macos.zip. Double-click that one too.\nMove the resulting lsss-3.3.0 folder into your home folder.\nLSSS is not signed by Apple, so macOS will block it. Allow it to run with this Terminal command:\nxattr -dr com.apple.quarantine ~/lsss-3.3.0\nStart LSSS by double-clicking lsss-3.3.0/lsss/LSSS.command. KORONA’s launchers are in lsss-3.3.0/korona/.\n\n\n\n\nMemory. By default, LSSS uses 2/3 of your computer’s memory, up to 30 GB. To use less, set the environment variable LSSS_MAX_MEMORY_MB, e.g. 4096.\nCheck: LSSS opens and shows its main window."
-  },
-  {
-    "objectID": "setup.html#python",
-    "href": "setup.html#python",
-    "title": "Software setup",
-    "section": "Python",
-    "text": "Python\n\n\n\n\n\n\nNoteFor Mandana’s session: AI for processing data using Python (Wednesday 15:15–16:00)\n\n\n\nMandana will demonstrate the practical examples herself rather than have everyone code along, because there is not enough time for all participants to work through them at once. Please install these Python libraries beforehand so the examples can be run directly during the workshop. The steps below install all of them:\n\nEchopype\nNumPy\nPandas\nxarray\nMatplotlib\nSciPy\nscikit-learn\n\nThe demonstrations are short and practical: acoustic data, cleaning and visualisation, and a brief machine-learning example.\n\n\nWe use Miniforge, a small, free installer that gets packages from the open conda-forge channel. You don’t need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation. If you already created the acoustics environment, add the new libraries with conda install -n acoustics -c conda-forge numpy pandas xarray scipy scikit-learn.\n\nWindowsmacOS\n\n\n\nDownload Miniforge3-Windows-x86_64.exe from https://github.com/conda-forge/miniforge/releases/latest and run it. Choose Just me and keep the default options.\nOpen Miniforge Prompt from the Start menu and create the workshop environment:\nconda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab\nType y when asked.\n\n\n\n\nOpen Terminal and run the following. It picks the right version for Intel or Apple-chip Macs automatically.\ncurl -L -O \"https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh\"\nbash Miniforge3-$(uname)-$(uname -m).sh\nPress Enter to read the licence, type yes to accept, and keep the default location. When asked whether to initialise conda, answer yes. Then close Terminal and open it again.\nCreate the workshop environment:\nconda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab\nType y when asked.\n\n\n\n\nCheck: in Miniforge Prompt (Windows) or Terminal (macOS), run\nconda activate acoustics\npython -c \"import echopype, numpy, pandas, xarray, matplotlib, scipy, sklearn; print(echopype.__version__)\"\nIf this prints a version number without errors, Python is ready. To start Jupyter during the workshop, run conda activate acoustics and then jupyter lab."
-  },
-  {
-    "objectID": "setup.html#r",
-    "href": "setup.html#r",
-    "title": "Software setup",
-    "section": "R",
-    "text": "R\nWe use R together with RStudio, a program for writing and running R code, in the biomass session on Wednesday. Install R first, then RStudio.\n\nWindowsmacOS\n\n\n\nGo to https://cran.r-project.org/bin/windows/base/, download the latest R installer (Download R-4.x.x for Windows) and run it with the default options.\nGo to https://posit.co/download/rstudio-desktop/, download RStudio Desktop for Windows and install it.\n\n\n\n\nGo to https://cran.r-project.org/bin/macosx/ and download the latest R installer for your chip: arm64 for Apple M… Macs, x86_64 for Intel Macs. Open the .pkg and follow the steps.\nGo to https://posit.co/download/rstudio-desktop/, download RStudio Desktop for macOS, open the .dmg and drag RStudio into Applications.\n\n\n\n\nOpen RStudio and install the workshop packages by typing this in the Console:\ninstall.packages(c(\"tidyverse\", \"sf\", \"rmarkdown\"))\nCheck: run library(tidyverse) in the Console. If no error appears, R is ready."
-  },
-  {
-    "objectID": "setup.html#workshop-data",
-    "href": "setup.html#workshop-data",
-    "title": "Software setup",
-    "section": "Workshop data",
-    "text": "Workshop data\nTo upload your own data, follow the instructions in the repository README."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Advanced acoustic workshop",
-    "section": "",
-    "text": "Workshop · Námskeið · 5–8 October 2026\n\nAdvanced acoustic workshop\nMarine and Freshwater Research Institute, Hafnarfjörður\n\n\nFour days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.\n\n\nVenue · Staðsetning MFRI / Hafrannsóknastofnun Meeting room, 1st floor, by the canteen Fundarsalur á 1. hæð við mötuneytið\n\n\nDates · Dagsetningar Mon 5 – Thu 8 October 2026 Mon 09:00–16:30 · Tue–Wed 08:30–16:30Thu 09:00–15:00 MFRI project 9277git\n\n\nContact · Umsjón Teresa Silva, Sigurður Þ. Jónsson teresa.silva@hafogvatn.is +354 575 2000\n\n\nFull programme → Presentations →"
+    "text": "Session slides from Monday 5 October, 09:00–10:30. Each file downloads as PowerPoint (.pptx).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nSound in Water and the EK80\nAcoustic first principles to wideband, calibrated echo sounding\n0.4 MB\n\n\nThe Theory of Sound in Water\nTransmit power and intensity, the single beam, directivity, gain and equivalent beam angle\n0.3 MB\n\n\nCalibration\nCalibration of EK60, EK80, ES60 and ES70\n28.6 MB\n\n\nCalibrating the EK80\nSetup, calibration, data collection and troubleshooting\n0.4 MB"
   },
   {
     "objectID": "programme.html",
@@ -140,11 +98,60 @@
     "text": "Day 4 · Thursday 8 October\nFimmtudagur 8. október — Project work\n\n\n\n\n\n\n\n09:00–12:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea)- 4th floor meeting room\nProject 9123\n\n\n09:00–12:00\nWorking project — Current measurements - 3rd floor meeting room\n Project 14224\n\n\n12:00–12:30\nLunch · Matarhlé\n\n\n12:30–15:00\nWorking project — Comparative analysis of acoustic measurements of two capelin stocks (Iceland–East Greenland–Jan Mayen and the Barents Sea) (continued) - 4th floor meeting room\nProject 9123\n\n\n12:30–15:00\nWorking project — Current measurements (continued)- 3rd floor meeting room\nProject 14224"
   },
   {
-    "objectID": "presentations/Sigvaldi_calibration/index.html",
-    "href": "presentations/Sigvaldi_calibration/index.html",
-    "title": "Calibration of EK80",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advanced acoustic workshop",
     "section": "",
-    "text": "Session slides from Monday 5 October, 09:00–10:30. Each file downloads as PowerPoint (.pptx).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nSound in Water and the EK80\nAcoustic first principles to wideband, calibrated echo sounding\n0.4 MB\n\n\nThe Theory of Sound in Water\nTransmit power and intensity, the single beam, directivity, gain and equivalent beam angle\n0.3 MB\n\n\nCalibration\nCalibration of EK60, EK80, ES60 and ES70\n28.6 MB\n\n\nCalibrating the EK80\nSetup, calibration, data collection and troubleshooting\n0.4 MB"
+    "text": "Workshop · Námskeið · 5–8 October 2026\n\nAdvanced acoustic workshop\nMarine and Freshwater Research Institute, Hafnarfjörður\n\n\nFour days on calibration, ADCP operation, acoustic scrutiny with Korona and LSSS, biomass estimation in R, AI for data processing and MFRI acoustic data in the cloud, with a field trip to Teledyne Gavia and a final day of project work.\n\n\nVenue · Staðsetning MFRI / Hafrannsóknastofnun Meeting room, 1st floor, by the canteen Fundarsalur á 1. hæð við mötuneytið\n\n\nDates · Dagsetningar Mon 5 – Thu 8 October 2026 Mon 09:00–16:30 · Tue–Wed 08:30–16:30Thu 09:00–15:00 MFRI project 9277git\n\n\nContact · Umsjón Teresa Silva, Sigurður Þ. Jónsson teresa.silva@hafogvatn.is +354 575 2000\n\n\nFull programme → Presentations →"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Software setup",
+    "section": "",
+    "text": "Please install LSSS, Python and R on your laptop before the workshop starts on Monday 5 October. Allow about 45 minutes. If something fails, bring your laptop on Monday morning and we will sort it out together.\nOn an MFRI laptop you may need administrator rights for the Windows installers. If so, contact MFRI IT."
+  },
+  {
+    "objectID": "setup.html#lsss",
+    "href": "setup.html#lsss",
+    "title": "Software setup",
+    "section": "LSSS",
+    "text": "LSSS\nLSSS (Large Scale Survey System) is free software from Marec. The download also includes KORONA, which we use on Wednesday. These instructions are for LSSS 3.3.0 (September 2026). The download is about 130 MB.\n\nWindowsmacOS\n\n\n\nGo to https://marec.no/downloads.htm and download lsss-3.3.0-20260902-0905.exe.\nRun the installer. If Windows shows “Windows protected your PC”, click More info → Run anyway.\nStart LSSS from the Start menu.\n\n\n\nThe Mac version of LSSS is built for Intel processors. On a Mac with an Apple chip (M1–M5), it runs through Apple’s Rosetta 2 translation layer.\n\nCheck your chip. Open the Apple menu → About This Mac. If Chip says Apple M…, install Rosetta once in Terminal:\nsoftwareupdate --install-rosetta --agree-to-license\nGo to https://marec.no/downloads.htm and download lsss-3.3.0-20260902-0905-macos.zip.\nDouble-click the zip in Downloads. It contains a second zip, lsss-3.3.0-macos.zip. Double-click that one too.\nMove the resulting lsss-3.3.0 folder into your home folder.\nLSSS is not signed by Apple, so macOS will block it. Allow it to run with this Terminal command:\nxattr -dr com.apple.quarantine ~/lsss-3.3.0\nStart LSSS by double-clicking lsss-3.3.0/lsss/LSSS.command. KORONA’s launchers are in lsss-3.3.0/korona/.\n\n\n\n\nMemory. By default, LSSS uses 2/3 of your computer’s memory, up to 30 GB. To use less, set the environment variable LSSS_MAX_MEMORY_MB, e.g. 4096.\nCheck: LSSS opens and shows its main window."
+  },
+  {
+    "objectID": "setup.html#python",
+    "href": "setup.html#python",
+    "title": "Software setup",
+    "section": "Python",
+    "text": "Python\n\n\n\n\n\n\nNoteFor Mandana’s session: AI for processing data using Python (Wednesday 15:15–16:00)\n\n\n\nMandana will demonstrate the practical examples herself rather than have everyone code along, because there is not enough time for all participants to work through them at once. Please install these Python libraries beforehand so the examples can be run directly during the workshop. The steps below install all of them:\n\nEchopype\nNumPy\nPandas\nxarray\nMatplotlib\nSciPy\nscikit-learn\n\nThe demonstrations are short and practical: acoustic data, cleaning and visualisation, and a brief machine-learning example.\n\n\nWe use Miniforge, a small, free installer that gets packages from the open conda-forge channel. You don’t need an Anaconda licence. If you already have Python through Anaconda or Miniconda, skip step 1 and run step 2 in that installation. If you already created the acoustics environment, add the new libraries with conda install -n acoustics -c conda-forge numpy pandas xarray scipy scikit-learn.\n\nWindowsmacOS\n\n\n\nDownload Miniforge3-Windows-x86_64.exe from https://github.com/conda-forge/miniforge/releases/latest and run it. Choose Just me and keep the default options.\nOpen Miniforge Prompt from the Start menu and create the workshop environment:\nconda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab\nType y when asked.\n\n\n\n\nOpen Terminal and run the following. It picks the right version for Intel or Apple-chip Macs automatically.\ncurl -L -O \"https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh\"\nbash Miniforge3-$(uname)-$(uname -m).sh\nPress Enter to read the licence, type yes to accept, and keep the default location. When asked whether to initialise conda, answer yes. Then close Terminal and open it again.\nCreate the workshop environment:\nconda create -n acoustics -c conda-forge echopype numpy pandas xarray matplotlib scipy scikit-learn jupyterlab\nType y when asked.\n\n\n\n\nCheck: in Miniforge Prompt (Windows) or Terminal (macOS), run\nconda activate acoustics\npython -c \"import echopype, numpy, pandas, xarray, matplotlib, scipy, sklearn; print(echopype.__version__)\"\nIf this prints a version number without errors, Python is ready. To start Jupyter during the workshop, run conda activate acoustics and then jupyter lab."
+  },
+  {
+    "objectID": "setup.html#r",
+    "href": "setup.html#r",
+    "title": "Software setup",
+    "section": "R",
+    "text": "R\nWe use R together with RStudio, a program for writing and running R code, in the biomass session on Wednesday. Install R first, then RStudio.\n\nWindowsmacOS\n\n\n\nGo to https://cran.r-project.org/bin/windows/base/, download the latest R installer (Download R-4.x.x for Windows) and run it with the default options.\nGo to https://posit.co/download/rstudio-desktop/, download RStudio Desktop for Windows and install it.\n\n\n\n\nGo to https://cran.r-project.org/bin/macosx/ and download the latest R installer for your chip: arm64 for Apple M… Macs, x86_64 for Intel Macs. Open the .pkg and follow the steps.\nGo to https://posit.co/download/rstudio-desktop/, download RStudio Desktop for macOS, open the .dmg and drag RStudio into Applications.\n\n\n\n\nOpen RStudio and install the workshop packages by typing this in the Console:\ninstall.packages(c(\"tidyverse\", \"sf\", \"rmarkdown\"))\nCheck: run library(tidyverse) in the Console. If no error appears, R is ready."
+  },
+  {
+    "objectID": "setup.html#workshop-data",
+    "href": "setup.html#workshop-data",
+    "title": "Software setup",
+    "section": "Workshop data",
+    "text": "Workshop data\nTo upload your own data, follow the instructions in the repository README."
+  },
+  {
+    "objectID": "presentations/Mandana_AI/index.html",
+    "href": "presentations/Mandana_AI/index.html",
+    "title": "Introduction to AI for processing data using Python",
+    "section": "",
+    "text": "Session slides from Wednesday 7 October, 15:15–16:00. The file opens as PDF.\n\n\n\nSlides\nContent\nSize\n\n\n\n\nAI for processing acoustic data\nTwo live examples with an AI assistant: simulating and cleaning a two-frequency echogram, and a random-forest classifier that predicts species from labelled schools, with what to check before trusting the code\n3.3 MB"
+  },
+  {
+    "objectID": "presentations/Siggi/index.html",
+    "href": "presentations/Siggi/index.html",
+    "title": "Mehodology used for acoustic assessment of IEGJM capelin",
+    "section": "",
+    "text": "Session slides from Wednesday 6 October, 03:00–16:30. The file downloads as PDF (.pdf).\n\n\n\nSlides\nContent\nSize\n\n\n\n\nCapelin biomass esitmation\nPresentation about IEGJM capelin survey design with example from winter 2025 and estimation method\n121 MB"
   },
   {
     "objectID": "presentations/Frank/index.html",

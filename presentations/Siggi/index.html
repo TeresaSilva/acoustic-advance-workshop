@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sigurður Þór Jónsson, Hafró">
+<meta name="dcterms.date" content="2026-10-07">
 
-<title>Presentations – Advanced acoustic workshop</title>
+<title>Mehodology used for acoustic assessment of IEGJM capelin – Advanced acoustic workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,26 +31,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/hafro-emblem.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-94bbfe7b18a0965b7cd7e8688e1130d0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2c4bd95e4e961d2b4461424f33a0e47f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/hafro-emblem.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-94bbfe7b18a0965b7cd7e8688e1130d0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2c4bd95e4e961d2b4461424f33a0e47f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,65 +76,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -145,11 +87,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/hafro-emblem.png" alt="" class="navbar-logo light-content">
-    <img src="./images/hafro-emblem.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/hafro-emblem.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/hafro-emblem.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Advanced acoustic workshop</span>
     </a>
   </div>
@@ -160,27 +102,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./programme.html"> 
+    <a class="nav-link" href="../../programme.html"> 
 <span class="menu-text">Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./instructors.html"> 
+    <a class="nav-link" href="../../instructors.html"> 
 <span class="menu-text">Instructors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./presentations.html" aria-current="page"> 
+    <a class="nav-link" href="../../presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./field-trip.html"> 
+    <a class="nav-link" href="../../field-trip.html"> 
 <span class="menu-text">Field trip</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./setup.html"> 
+    <a class="nav-link" href="../../setup.html"> 
 <span class="menu-text">Setup</span></a>
   </li>  
 </ul>
@@ -207,15 +149,26 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
-<p class="subtitle lead">Glærur</p>
+<h1 class="title">Mehodology used for acoustic assessment of IEGJM capelin</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sigurður Þór Jónsson, Hafró </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -225,152 +178,27 @@ window.Quarto = {
 </header>
 
 
-<p>Slides open full-screen. Press <strong>F</strong> for full-screen, <strong>S</strong> for speaker notes, <strong>E</strong> to print to PDF.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Day - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Day - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Presentation
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Presenter
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
+<p>Session slides from Wednesday 6 October, 03:00–16:30. The file downloads as PDF (.pdf).</p>
+<table class="caption-top table">
 <thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Day</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Presentation</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Presenter</a>
-</th>
-
+<tr class="header">
+<th>Slides</th>
+<th>Content</th>
+<th>Size</th>
 </tr>
 </thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791362629150" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-listing-title-sort="Shipboard ADCPs: software tools to view velocity profiles" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/Frank/index.html" class="title listing-title">Shipboard ADCPs: software tools to view velocity profiles</a>
-</td>
-<td>
-<span class="listing-author">Frank Bahr, WHOI</span>
-</td>
-
+<tbody>
+<tr class="odd">
+<td><a href="methods-stj-ts-adv-acou-course-oct-26-based-on-SFS-2025-04-03.pdf">Capelin biomass esitmation</a></td>
+<td>Presentation about IEGJM capelin survey design with example from winter 2025 and estimation method</td>
+<td>121 MB</td>
 </tr>
-
-<tr data-index="1" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791362629221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171" data-listing-title-sort="Interpretation of acoustic data from fisheries sonar" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/Hector_sonar/index.html" class="title listing-title">Interpretation of acoustic data from fisheries sonar</a>
-</td>
-<td>
-<span class="listing-author">Hector Pena, IMR</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791362629288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="Calibration of EK80" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/Sigvaldi_calibration/index.html" class="title listing-title">Calibration of EK80</a>
-</td>
-<td>
-<span class="listing-author">Sigvaldi Árnason, MFRI</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791362629316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112" data-listing-title-sort="Advanced acoustic workshop" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mon 5 Oct</span>
-</td>
-<td>
-<a href="./presentations/workshop-programme/index.html" class="title listing-title">Advanced acoustic workshop</a>
-</td>
-<td>
-<span class="listing-author">MFRI · Hafrannsóknastofnun</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-date-sort="1791331200000" data-listing-file-modified-sort="1791362629232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59" data-listing-title-sort="Introduction to AI for processing data using Python" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Wed 7 Oct</span>
-</td>
-<td>
-<a href="./presentations/Mandana_AI/index.html" class="title listing-title">Introduction to AI for processing data using Python</a>
-</td>
-<td>
-<span class="listing-author">Mandana Mahgoli, HI / MFRI</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-date-sort="1791331200000" data-listing-file-modified-sort="1791362629233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Mehodology used for acoustic assessment of IEGJM capelin" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Wed 7 Oct</span>
-</td>
-<td>
-<a href="./presentations/Siggi/index.html" class="title listing-title">Mehodology used for acoustic assessment of IEGJM capelin</a>
-</td>
-<td>
-<span class="listing-author">Sigurður Þór Jónsson, Hafró</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-date-sort="1791331200000" data-listing-file-modified-sort="1791362629316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54" data-listing-title-sort="Post-processing in LSSS: Korona modules" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Wed 7 Oct</span>
-</td>
-<td>
-<a href="./presentations/Teresa_korona/index.html" class="title listing-title">Post-processing in LSSS: Korona modules</a>
-</td>
-<td>
-<span class="listing-author">Teresa Silva, MFRI</span>
-</td>
-
-</tr>
-
 </tbody>
 </table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -779,7 +607,7 @@ window.Quarto = {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/edit/main/presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/edit/main/presentations/Siggi/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TeresaSilva/acoustic-advance-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Project 9277 · 5–8 October 2026</p>
 </div>
