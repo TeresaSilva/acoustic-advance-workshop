@@ -1,5 +1,5 @@
 ---
-title: "Mehodology used for acoustic assessment of IEGJM capelin"
+title: "Methodology used for acoustic assessment of IEGJM capelin"
 author: "Sigurður Þór Jónsson, Hafró"
 date: 2026-10-07
 toc: false
