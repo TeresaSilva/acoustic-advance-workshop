@@ -32,7 +32,7 @@ MFRI, meeting room<br>1st floor, by the canteen
 :::
 ::: {.column width="33%"}
 **Dates**<br>
-Mon 5 – Thu 8 Oct<br>Mon 09:00 · Tue–Wed 08:30 · Thu 09:00–15:00
+Mon 5 – Thu 8 Oct<br>Mon 09:00 · Tue–Wed 08:30 · Thu 08:30–15:00
 :::
 ::: {.column width="33%"}
 **Contact**<br>
