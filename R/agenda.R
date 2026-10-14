@@ -54,3 +54,19 @@ agenda_all <- function(agenda = read_agenda(), level = 2) {
     agenda_table(d)
   }
 }
+
+# Participant list from data/participants.csv (markdown table, used in the PDF).
+# Uses every column in the file, with the CSV header as the table header.
+participants_table <- function(path = here_path("data/participants.csv")) {
+  p <- read.csv(path, encoding = "UTF-8", stringsAsFactors = FALSE,
+                na.strings = "", check.names = FALSE)
+  # Alphabetical by the first column; accents are ignored so Á sorts with A
+  key <- tolower(iconv(p[[1]], from = "UTF-8", to = "ASCII//TRANSLIT"))
+  key <- gsub("[^a-z ]", "", key)
+  p <- p[order(key), , drop = FALSE]
+  md <- function(x) gsub("([*_|\\[\\]])", "\\\\\\1", ifelse(is.na(x), "", x))
+  row <- function(x) paste0("| ", paste(x, collapse = " | "), " |")
+  rows <- apply(p, 1, function(r) row(md(trimws(r))))
+  cat("\n", row(names(p)), "\n", row(rep("--------------------", ncol(p))), "\n",
+      paste(rows, collapse = "\n"), "\n\n", sep = "")
+}

@@ -31,3 +31,15 @@ The workshop is held in the meeting room on the 1st floor of MFRI, by the cantee
 #| results: asis
 agenda_all()
 ```
+
+::: {.content-visible when-format="typst"}
+{{< pagebreak >}}
+
+## Participants
+
+```{r}
+#| echo: false
+#| results: asis
+participants_table()
+```
+:::

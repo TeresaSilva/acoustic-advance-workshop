@@ -10,3 +10,7 @@ _site/
 
 # Slide source with speaker notes: kept local, only the PDF is published
 presentations/Teresa_korona/_slides/
+
+# Participant certificates (contain names): generated locally by R/certificates.R
+certificates/
+R/certificates.R
